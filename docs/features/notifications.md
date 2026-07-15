@@ -9,14 +9,24 @@ Enabling notifications registers this device to receive push reminders and requi
 notification permission. This isn't available for a guest session that hasn't linked to a real account
 yet, since reminders need somewhere to be delivered from server-side.
 
-## Reminder timing
+## Class reminders
 
-Two independent toggles control when you're reminded about a deadline:
+Choose how far ahead of a class you want to be nudged — 5, 10, 15, 30, or 60 minutes before it starts —
+from the **Remind me** selector in Settings.
 
-- **Remind me on the day** — a reminder the same day something's due.
-- **Remind me the day before** — an earlier heads-up, so you're not finding out at the last minute.
+## Deadline reminders
+
+Two independent toggles control when you're reminded about a task/test deadline:
+
+- **On the day it's due** — a reminder the same day something's due.
+- **The day before** — an earlier heads-up, so you're not finding out at the last minute.
 
 Both can be on at once, or just one — whichever fits how far ahead you like to plan.
+
+Rather than firing at the same clock time for everyone, both are timed around your own class schedule
+for the day the reminder actually fires: "on the day" fires an hour before your first class that day,
+and "the day before" fires 10 minutes after your last class ends. On a day with no classes, they fall
+back to a fixed time in the late afternoon/evening instead.
 
 ## Turning them off
 

@@ -23,12 +23,18 @@ The app always tries to default to whichever semester's date range actually **co
 than just the most recently created one — and flags on the semester picker if you've selected one that
 hasn't started yet, or has already finished.
 
+Opening a semester splits into two tabs — **Overview** (its GPA, where you are in the term, and a
+running "cumulative up to here" CGPA scoped to that semester's own programme) and **Classes** (every
+subject in it with its credits and grade). Editing a semester is split the same way — **Details**
+(name, dates, grading mode/scale) and **Periods** (the period list and biweekly anchor date).
+
 ## Subjects and grading
 
 Add the subjects you're taking each semester, along with credit hours and a grading scale. As you enter
 grades, the app computes your semester GPA and running CGPA automatically. If you're exempted from a
 subject requirement under a different programme (a transfer credit, for example), you can mark that
-directly from a subject's details.
+directly from a subject's details — exempted subjects can be edited or removed later from that
+programme's own page, not just added.
 
 ## GPA/CGPA on the Dashboard
 
