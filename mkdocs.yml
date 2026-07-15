@@ -1,9 +1,6 @@
 site_name: Student Planner Docs
 site_description: Documentation for Student Planner — an offline-first PWA for tracking classes, tasks, tests, and study progress.
 site_url: https://docs.planner.danplace.tech/
-repo_name: Jerit3787/planner
-repo_url: https://github.com/Jerit3787/planner
-edit_uri: ""
 
 theme:
   name: material
@@ -65,10 +62,5 @@ nav:
       - Export & import: data/export-import.md
       - Privacy & terms: data/privacy-and-terms.md
   - FAQ: faq.md
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Jerit3787/planner
 
 copyright: Copyright &copy; 2021-2026 Danish Studio Production

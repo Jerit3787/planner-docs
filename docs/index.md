@@ -4,9 +4,6 @@
 tests, and study progress in one place — built as a Progressive Web App (PWA), so it installs like a
 native app on phone, tablet, or desktop but runs from the browser with no app store required.
 
-[Open the app](https://planner.danplace.tech){ .md-button .md-button--primary }
-[View source on GitHub](https://github.com/Jerit3787/planner){ .md-button }
-
 ## What it does
 
 - **Schedule** — a weekly timetable, including classes that only run on alternating weeks.

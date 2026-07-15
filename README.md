@@ -1,9 +1,9 @@
 # planner-docs
 
-User documentation for [Student Planner](https://github.com/Jerit3787/planner), built with
+User documentation for Student Planner, built with
 [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
 
-Live at: https://jerit3787.github.io/planner-docs/
+Live at: https://docs.planner.danplace.tech/
 
 ## Local development
 
