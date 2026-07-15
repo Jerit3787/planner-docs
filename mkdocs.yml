@@ -1,0 +1,74 @@
+site_name: Student Planner Docs
+site_description: Documentation for Student Planner — an offline-first PWA for tracking classes, tasks, tests, and study progress.
+site_url: https://jerit3787.github.io/planner-docs/
+repo_name: Jerit3787/planner
+repo_url: https://github.com/Jerit3787/planner
+edit_uri: ""
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    logo: material/notebook-outline
+  favicon: img/favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Guest mode vs. an account: getting-started/guest-vs-account.md
+      - First-run setup: getting-started/onboarding.md
+  - Features:
+      - Dashboard: features/dashboard.md
+      - Schedule: features/schedule.md
+      - Homework & Tasks: features/homework.md
+      - Study Topics: features/study.md
+      - Quiz & Tests: features/quiz.md
+      - Subjects & Academics: features/academics.md
+      - Calendar: features/calendar.md
+      - Notifications: features/notifications.md
+      - Settings: features/settings.md
+  - Offline & Sync: offline-and-sync.md
+  - Your Data:
+      - Export & import: data/export-import.md
+      - Privacy & terms: data/privacy-and-terms.md
+  - FAQ: faq.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Jerit3787/planner
+
+copyright: Copyright &copy; 2021-2026 Danish Studio Production
