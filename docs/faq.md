@@ -28,4 +28,4 @@ From [Settings](features/settings.md) → Delete account. This is permanent and 
 every device.
 
 **I found a bug or have a feature request — where do I report it?**
-Email [danish.hakim04@gmail.com](mailto:danish.hakim04@gmail.com).
+Email [support@danplace.tech](mailto:support@danplace.tech).
