@@ -17,8 +17,7 @@ comment in that page with:
 
 | File | Page | What to capture |
 |---|---|---|
-| `index-hero.png` | index.md | Dashboard or a general app view — the "hero" shot for the docs homepage. |
-| `dashboard-overview.png` | features/dashboard.md | Full Dashboard: today's classes, GPA/streak/deadline cards, analytics charts. |
+| `dashboard-overview.png` | index.md **and** features/dashboard.md | Full Dashboard: today's classes, GPA/streak/deadline cards, analytics charts. One capture, reused on both pages — no separate "hero" shot needed. |
 | `schedule-week-view.png` | features/schedule.md | Full-week timetable view (desktop width). |
 | `schedule-day-tabs-mobile.png` | features/schedule.md | Day-tabs view at mobile width. |
 | `schedule-import-dialog.png` | features/schedule.md | The `.xlsx`/`.csv` timetable import dialog. |

@@ -1,6 +1,6 @@
 # Student Planner
 
-<!-- screenshot: index-hero.png (see SCREENSHOTS.md) -->
+<!-- screenshot: dashboard-overview.png (see SCREENSHOTS.md) -->
 
 **Student Planner** is a free, installable, offline-first app for tracking your classes, homework,
 tests, and study progress in one place — built as a Progressive Web App (PWA), so it installs like a
