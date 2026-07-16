@@ -1,6 +1,6 @@
 # Subjects & Academics
 
-<!-- screenshot: academics-overview.png (see SCREENSHOTS.md) -->
+![The Academics page, Semesters tab](../img/academics-overview.png)
 
 The structural layer everything else hangs off: **programmes** → **semesters/years** → **subjects**,
 plus automatic GPA/CGPA calculation from your grades.
@@ -13,7 +13,7 @@ active programme filters everything else in the app down to just that programme'
 can set default grading settings so every new semester under it starts pre-configured.
 
 !!! info "Studying abroad? A programme can have its own timezone"
-    <!-- screenshot: academics-programme-timezone.png (see SCREENSHOTS.md) -->
+    ![The Programme edit form's timezone override field](../img/academics-programme-timezone.png)
     If your programme is based somewhere other than where you're physically studying (an exchange
     semester, a fully-remote degree in another country), open the programme and set a **timezone
     override**. Every class, quiz/exam, and task due time you enter under that programme's semesters is
@@ -34,7 +34,7 @@ reading week that doesn't fit the built-in types). Each period drives:
 - The [biweekly anchor date](schedule.md#alternating-biweekly-classes) for Week A/B classes.
 
 !!! tip "Adding periods is faster than it looks"
-    <!-- screenshot: academics-periods-editor.png (see SCREENSHOTS.md) -->
+    ![The semester Periods editor, with a few periods listed](../img/academics-periods-editor.png)
     A new period's start date auto-fills from wherever the previous one left off (or the semester's own
     start date, for the very first period), with a 1-day placeholder end date — so you're mostly just
     adjusting end dates and picking a type as you go, not typing every date from scratch.

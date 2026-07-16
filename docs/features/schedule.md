@@ -1,7 +1,7 @@
 # Schedule
 
-<!-- screenshot: schedule-week-view.png (see SCREENSHOTS.md) -->
-<!-- screenshot: schedule-day-tabs-mobile.png (see SCREENSHOTS.md) -->
+![The full-week timetable view](../img/schedule-week-view.png)
+![The day-tabs view at mobile width](../img/schedule-day-tabs-mobile.png)
 
 Your weekly timetable — one page for every day, with a day-tabs view on mobile and a full-week
 timetable view on larger screens.
@@ -29,7 +29,7 @@ staring at a class list for a day you don't actually have class.
 
 ## Importing a timetable
 
-<!-- screenshot: schedule-import-dialog.png (see SCREENSHOTS.md) -->
+![The timetable import dialog](../img/schedule-import-dialog.png)
 
 Instead of adding classes one at a time, you can import a spreadsheet (`.xlsx`/`.csv`) via the import
 button — useful if your institution already publishes your timetable as a spreadsheet.

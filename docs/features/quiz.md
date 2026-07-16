@@ -1,6 +1,6 @@
 # Quiz & Tests
 
-<!-- screenshot: quiz-list.png (see SCREENSHOTS.md) -->
+![Quiz & Tests list, mixing regular tests and a Final Exam](../img/quiz-list.png)
 
 Track quizzes, tests, and Final Exams — with scores, status, and an optional linked focus/revision
 trail.
@@ -16,7 +16,7 @@ Set a date and (optionally) a time, a topic link, and a status.
 
 ## Final Exams
 
-<!-- screenshot: quiz-final-exam-form.png (see SCREENSHOTS.md) -->
+![The Final Exam form, with seat number and session quick-picks](../img/quiz-final-exam-form.png)
 
 Toggle **Final Exam** on the same form to switch it into exam mode. This adds:
 

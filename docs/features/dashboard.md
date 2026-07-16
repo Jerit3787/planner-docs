@@ -1,6 +1,6 @@
 # Dashboard
 
-<!-- screenshot: dashboard-overview.png (see SCREENSHOTS.md) -->
+![The Dashboard, showing today's classes, GPA/streak/deadline cards, and analytics charts](../img/dashboard-overview.png)
 
 The Dashboard is the home screen — a quick-glance summary of what's happening, plus quick actions to
 add new items.

@@ -1,6 +1,6 @@
 # Settings
 
-<!-- screenshot: settings-overview.png (see SCREENSHOTS.md) -->
+![Settings' Preferences section, with class duration, exam length, and exam sessions](../img/settings-overview.png)
 
 All app-wide preferences and data/account management live on a dedicated Settings page, reachable from
 the sidebar.
@@ -23,7 +23,7 @@ the sidebar.
 
 ## Data & account
 
-<!-- screenshot: settings-data-account.png (see SCREENSHOTS.md) -->
+![Settings' Data & account card](../img/settings-data-account.png)
 
 - **Export my data** — downloads everything you've entered as a single JSON file. Works fully offline
   and for guests too, since it reads straight from the local database.

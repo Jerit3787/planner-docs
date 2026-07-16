@@ -1,6 +1,6 @@
 # Study Topics
 
-<!-- screenshot: study-topic-list.png (see SCREENSHOTS.md) -->
+![Study Topics list with progress bars](../img/study-topic-list.png)
 
 Break a subject down into individual topics/chapters and track your revision progress on each one —
 separately from the assignment-style tracking in [Homework & Tasks](homework.md).

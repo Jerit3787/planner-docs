@@ -1,13 +1,13 @@
 # Homework & Tasks
 
-<!-- screenshot: homework-list.png (see SCREENSHOTS.md) -->
+![The Tasks list, with a mix of progress levels](../img/homework-list.png)
 
 Track anything with a deadline — assignments, readings, projects — separately from tests (which live
 under [Quiz & Tests](quiz.md)).
 
 ## Adding a task
 
-<!-- screenshot: homework-add-task.png (see SCREENSHOTS.md) -->
+![The add/edit task form, showing the during-class/custom time picker](../img/homework-add-task.png)
 
 A task needs a title and a due date at minimum. You can optionally set a due **time** in one of two
 ways:

@@ -1,6 +1,6 @@
 # Notifications
 
-<!-- screenshot: notifications-settings-card.png (see SCREENSHOTS.md) -->
+![Settings' Notifications card, with class reminder and deadline toggles](../img/notifications-settings-card.png)
 
 Optional push notifications for upcoming classes and deadlines — turned off by default, opt in from
 [Settings](settings.md).

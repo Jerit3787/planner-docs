@@ -1,6 +1,6 @@
 # Offline & sync
 
-<!-- screenshot: offline-sync-status-panel.png (see SCREENSHOTS.md) -->
+![The sync status panel, showing connection, account, and sync state](img/offline-sync-status-panel.png)
 
 Student Planner is **offline-first** — every page reads and writes to a local database on your device
 first, so the app works with no connection at all, not just as a fallback.

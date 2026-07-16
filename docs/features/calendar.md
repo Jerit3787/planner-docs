@@ -1,6 +1,6 @@
 # Calendar
 
-<!-- screenshot: calendar-month-view.png (see SCREENSHOTS.md) -->
+![The Calendar month grid, with period tinting and event dots](../img/calendar-month-view.png)
 
 A month view that brings your classes, deadlines, and holidays/events together in one place, colour-tinted
 by whichever semester period (lecture weeks, break, exam period, or a custom period type) each day
@@ -14,7 +14,7 @@ falls under.
 
 ## Day details
 
-<!-- screenshot: calendar-day-detail.png (see SCREENSHOTS.md) -->
+![A day's detail view](../img/calendar-day-detail.png)
 
 Tap/click a day to see everything on it — classes, quizzes/tests, tasks, and holidays/events — and jump
 straight to any of them (this deep-links back to the Schedule, Quiz, or Homework page it came from).

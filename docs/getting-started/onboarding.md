@@ -1,6 +1,6 @@
 # First-run setup
 
-<!-- screenshot: onboarding-welcome.png (see SCREENSHOTS.md) -->
+![The onboarding wizard's Welcome step](../img/onboarding-welcome.png)
 
 The first time you open the app, you'll walk through a short setup wizard instead of landing straight
 on a bare sign-in screen:
@@ -13,7 +13,7 @@ on a bare sign-in screen:
    Schedule page.
 5. **Account** — pick a name, then choose Google sign-in, email/password, or **Continue as guest**.
 
-<!-- screenshot: onboarding-account-step.png (see SCREENSHOTS.md) -->
+![The onboarding wizard's account-choice step](../img/onboarding-account-step.png)
 
 Everything you enter in steps 2-4 is saved locally as you go, even before you've picked an
 authentication method — so if you back out partway through and come back later, nothing is lost, and
