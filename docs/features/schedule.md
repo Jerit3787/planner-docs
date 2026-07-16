@@ -1,5 +1,8 @@
 # Schedule
 
+<!-- screenshot: schedule-week-view.png (see SCREENSHOTS.md) -->
+<!-- screenshot: schedule-day-tabs-mobile.png (see SCREENSHOTS.md) -->
+
 Your weekly timetable — one page for every day, with a day-tabs view on mobile and a full-week
 timetable view on larger screens.
 
@@ -19,12 +22,14 @@ which week you're currently in.
 
 ## No-class periods
 
-If your semester has a break, exam period, or holiday period defined (see
-[Subjects & Academics](academics.md)), the Schedule page and the Dashboard's "Today's classes" card
-show a banner for that day instead of your normal timetable — so you're not staring at a class list for
-a day you don't actually have class.
+If your semester has a break, exam period, holiday, or custom no-class period defined (see
+[Subjects & Academics](academics.md#semesters-and-periods)), the Schedule page and the Dashboard's
+"Today's classes" card show a banner for that day instead of your normal timetable — so you're not
+staring at a class list for a day you don't actually have class.
 
 ## Importing a timetable
+
+<!-- screenshot: schedule-import-dialog.png (see SCREENSHOTS.md) -->
 
 Instead of adding classes one at a time, you can import a spreadsheet (`.xlsx`/`.csv`) via the import
 button — useful if your institution already publishes your timetable as a spreadsheet.
@@ -34,3 +39,13 @@ button — useful if your institution already publishes your timetable as a spre
 **Export .ics** downloads your timetable as a standard calendar file (weekly-recurring events, bounded
 to your semester's date range) that you can import into Google Calendar, Apple Calendar, Outlook, or
 any other app that reads `.ics` files.
+
+## Timezones and studying abroad
+
+!!! info "Only relevant if your programme is based somewhere else"
+    If your programme has a [timezone override](academics.md#programmes) set, a class's day and time
+    are entered in that programme's timezone. The day-tabs/timetable view (and any device you check it
+    from) always shows it converted correctly for wherever you currently are — occasionally this means
+    a class you entered as, say, "Monday 11pm" in your programme's timezone actually shows as
+    "Tuesday" on your own device, which is expected, not a bug, once the two timezones are far enough
+    apart.

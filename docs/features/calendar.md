@@ -1,7 +1,10 @@
 # Calendar
 
+<!-- screenshot: calendar-month-view.png (see SCREENSHOTS.md) -->
+
 A month view that brings your classes, deadlines, and holidays/events together in one place, colour-tinted
-by whichever semester period (lecture weeks, break, exam period, etc.) each day falls under.
+by whichever semester period (lecture weeks, break, exam period, or a custom period type) each day
+falls under.
 
 ## Reading the grid
 
@@ -11,10 +14,15 @@ by whichever semester period (lecture weeks, break, exam period, etc.) each day 
 
 ## Day details
 
+<!-- screenshot: calendar-day-detail.png (see SCREENSHOTS.md) -->
+
 Tap/click a day to see everything on it — classes, quizzes/tests, tasks, and holidays/events — and jump
-straight to any of them (this deep-links back to the Schedule, Quiz, or Homework page it came from). On
-a phone, this opens inline below the grid so you can keep scrolling the day list without losing the
-month view; on a larger screen it opens as a floating dialog instead.
+straight to any of them (this deep-links back to the Schedule, Quiz, or Homework page it came from).
+
+!!! note "Mobile vs. desktop layout"
+    On a phone, this opens inline below the grid so you can keep scrolling the day list without losing
+    the month view. On a larger screen it opens as a floating dialog instead, since there's enough room
+    that a fixed panel would just push the calendar off-screen.
 
 ## Events and holidays
 

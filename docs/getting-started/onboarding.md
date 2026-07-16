@@ -1,5 +1,7 @@
 # First-run setup
 
+<!-- screenshot: onboarding-welcome.png (see SCREENSHOTS.md) -->
+
 The first time you open the app, you'll walk through a short setup wizard instead of landing straight
 on a bare sign-in screen:
 
@@ -10,6 +12,8 @@ on a bare sign-in screen:
 4. **Classes** — add your weekly timetable for those subjects. You can always add more later from the
    Schedule page.
 5. **Account** — pick a name, then choose Google sign-in, email/password, or **Continue as guest**.
+
+<!-- screenshot: onboarding-account-step.png (see SCREENSHOTS.md) -->
 
 Everything you enter in steps 2-4 is saved locally as you go, even before you've picked an
 authentication method — so if you back out partway through and come back later, nothing is lost, and
@@ -28,3 +32,8 @@ The wizard only shows itself once per device. If you want to run through it agai
 it, or starting fresh on a device that already has data), an existing guest session gets a confirmation
 first — continuing wipes that device's local data so setup doesn't create a second, disconnected
 semester on top of what's already there.
+
+!!! tip "Studying for a programme based elsewhere?"
+    Setup doesn't ask about this up front — if your degree is based in a different timezone than where
+    you're physically studying, set that once you're in the app, from your Programme's own settings.
+    See [Programmes](../features/academics.md#programmes).

@@ -13,6 +13,12 @@ uploaded. This means:
   backup, because nothing was ever synced.
 - It won't show up on another device. Guest data is tied to the browser/device it was created on.
 
+!!! warning "iPhone/iPad guests: read this"
+    On iOS, Safari may automatically clear a web app's local storage if it goes unopened for about two
+    weeks — a platform-wide rule, not specific to this app. Since guest data has no cloud backup, that
+    would mean losing everything. If you're on iOS and plan to stick with guest mode, either open the
+    app periodically or [export your data](../data/export-import.md) as a manual backup.
+
 ## Signing in with an account
 
 Signing in (Google or email/password) syncs your data to the cloud, so it's available on every device

@@ -1,5 +1,7 @@
 # Offline & sync
 
+<!-- screenshot: offline-sync-status-panel.png (see SCREENSHOTS.md) -->
+
 Student Planner is **offline-first** — every page reads and writes to a local database on your device
 first, so the app works with no connection at all, not just as a fallback.
 
@@ -29,3 +31,16 @@ a conflict was resolved rather than it happening silently.
 
 Student Planner is a PWA — most browsers offer an "Install" or "Add to Home Screen" option, which gives
 it its own icon and window, launching without browser chrome, just like a native app.
+
+!!! warning "iPhone/iPad (iOS)"
+    This step isn't optional on iOS the way it is elsewhere:
+
+    - **Push notifications require it.** Safari only delivers Web Push to a PWA that's been added to
+      the Home Screen and opened from there — see [Notifications](features/notifications.md#iphoneipad-ios).
+    - **Guest data can be evicted.** If you don't open the app for about two weeks, iOS may clear its
+      local storage automatically to free up space. A guest session has no cloud backup, so that data
+      would be gone for good — either open the app periodically or
+      [create an account](getting-started/guest-vs-account.md) if you're on iOS long-term.
+    - There's no periodic background sync on iOS (a platform-wide restriction, not specific to this
+      app) — syncing happens when you actually open the app, not silently in the background while it's
+      closed.

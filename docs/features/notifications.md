@@ -1,5 +1,7 @@
 # Notifications
 
+<!-- screenshot: notifications-settings-card.png (see SCREENSHOTS.md) -->
+
 Optional push notifications for upcoming classes and deadlines — turned off by default, opt in from
 [Settings](settings.md).
 
@@ -32,3 +34,19 @@ back to a fixed time in the late afternoon/evening instead.
 
 Turning notifications off removes this device's registration entirely, so no further reminders are
 sent to it.
+
+## iPhone/iPad (iOS)
+
+!!! warning "Notifications only work once the app is on your Home Screen"
+    Safari's rules mean a web app only receives push notifications if it's been added to your Home
+    Screen and opened from there (not from a regular Safari tab). If you try to enable notifications
+    before doing that, Settings will tell you so up front — look for the **Share → Add to Home Screen**
+    option in Safari, then reopen the app from the icon it creates before trying again.
+
+!!! warning "Guest data can be silently deleted after ~2 weeks"
+    This isn't specific to notifications, but it's an iOS platform rule worth knowing if you use the app
+    on iPhone/iPad as a guest: if you don't open the app for about two weeks, iOS may automatically
+    clear its local storage to free up space — and since a guest session has no cloud backup, that data
+    is unrecoverable. If you plan to keep using the app on iOS, either open it at least every couple of
+    weeks or [create an account](../getting-started/guest-vs-account.md) so your data is safely backed
+    up to the cloud instead.

@@ -1,5 +1,7 @@
 # Student Planner
 
+<!-- screenshot: index-hero.png (see SCREENSHOTS.md) -->
+
 **Student Planner** is a free, installable, offline-first app for tracking your classes, homework,
 tests, and study progress in one place — built as a Progressive Web App (PWA), so it installs like a
 native app on phone, tablet, or desktop but runs from the browser with no app store required.
@@ -26,6 +28,11 @@ native app on phone, tablet, or desktop but runs from the browser with no app st
   with you.
 - **Free, no ads.** See the [Privacy Policy](https://planner.danplace.tech/privacy.html) and
   [Terms](https://planner.danplace.tech/terms.html) for the specifics.
+
+!!! tip "Install it like a real app"
+    Most browsers offer an "Install" or "Add to Home Screen" option for Student Planner — see
+    [Installing as an app](offline-and-sync.md#installing-as-an-app). On iPhone/iPad this is required,
+    not just convenient, for push notifications to work at all.
 
 ## Where to start
 
