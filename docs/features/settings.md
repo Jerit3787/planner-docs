@@ -41,3 +41,8 @@ The About card shows the current app version, a changelog of what's new in recen
 "View update history" button for everything before that), and links to the
 [Privacy Policy](../data/privacy-and-terms.md), [Terms and Conditions](../data/privacy-and-terms.md),
 and open-source licenses used by the app.
+
+On the desktop and Android apps, About also shows the installed app's own version separately from the web
+version above (these can differ briefly after a new release, since installing it is a separate step from
+the website updating), along with a **Check for updates** button to check right away instead of waiting
+for the app's automatic background check.

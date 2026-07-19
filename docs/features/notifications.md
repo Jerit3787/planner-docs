@@ -35,6 +35,12 @@ back to a fixed time in the late afternoon/evening instead.
 Turning notifications off removes this device's registration entirely, so no further reminders are
 sent to it.
 
+## Testing that they work
+
+Once notifications are on, a **Send a test notification** button appears in Settings — it fires a real
+notification immediately, so you can confirm one actually shows up on this device without waiting for
+an upcoming class or deadline.
+
 ## Desktop and Android apps
 
 Notifications work a little differently in the native desktop and Android apps — see the

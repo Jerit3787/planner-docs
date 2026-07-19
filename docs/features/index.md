@@ -16,7 +16,8 @@ everything works identically on every platform; the few exceptions are below.
 | Google Sign-In                  | ✅ | ✅ | ✅ |
 | Class/deadline notifications    | ✅ Push (needs Home Screen install on iPhone/iPad) | ✅ Push | ⚠️ Local only — app must be open |
 | Data export/import, account deletion | ✅ | ✅ | ✅ |
-| Auto-updates                    | ✅ Always up to date | ⚠️ Manual (in-app download prompt) | ✅ Automatic |
+| Home screen / desktop widget (next class, schedule, deadlines) | ➖ Not applicable | ✅ Home screen widget | ✅ Floating window (Win/Linux) or Notification Center widget (macOS) |
+| Auto-updates                    | ✅ Always up to date | ⚠️ Manual (in-app download prompt) | ✅ Automatic (downloads + installs in the background, then prompts you to restart) |
 
 **Notification differences, in short:** Android gets real push, same as the web app — reminders reach
 you even when the app is closed. Desktop can't wake itself up in the background the way a phone or

@@ -25,6 +25,23 @@ add new items.
     A `~` before your GPA means it's a projection, not a final number — see the note in
     [Subjects & Academics](academics.md#subjects-and-grading).
 
+## Customize dashboard
+
+Tap the tune icon (⚙) next to the greeting to show/hide any card above, or reorder it within its own
+column — for example, hiding Quote of the day, or moving Test scores above Focus time by subject.
+Changes save automatically and sync with the rest of your account.
+
+## Home screen / desktop widget
+
+Shows your next class, today's schedule, and upcoming deadlines without opening the app — updates
+whenever you open or return to the app. How you add it depends on your platform:
+
+- **Android** — a resizable home screen widget. Add it the usual way (long-press your home screen →
+  Widgets → Student Planner), or tap **Add to home screen** in Settings.
+- **Windows / Linux** — a small floating widget window. Turn it on/off with the toggle in Settings.
+- **macOS** — a real Notification Center widget. Add it from the system's own Widget gallery (click the
+  date/time in the menu bar, or right-click the desktop, then choose "Edit Widgets").
+
 ## Keyboard shortcuts
 
 Available anywhere in the app (not just the Dashboard), as long as you're not typing in a text field:
