@@ -8,16 +8,23 @@ native app on phone, tablet, or desktop but runs from the browser with no app st
 
 ## What it does
 
-- **Schedule** — a weekly timetable, including classes that only run on alternating weeks.
-- **Homework & Tasks** — due dates, reminders, and a during-class/custom time picker.
-- **Study Topics** — track revision progress per subject, linked to upcoming tests.
-- **Quiz & Tests** (including Final Exams) — scores, seat numbers, and pomodoro focus sessions logged
-  against them.
-- **Subjects & Academics** — programmes, semesters, grading scales, and automatic GPA/CGPA
-  calculation.
-- **Calendar** — a month view combining your classes, deadlines, and holidays/events in one place.
-- **Notifications** — optional push reminders for upcoming classes and deadlines.
-- **Dashboard analytics** — GPA trend, a study streak, and focus-time charts.
+- **[Schedule](features/schedule.md)** — a weekly timetable, including classes that only run on
+  alternating weeks.
+- **[Homework & Tasks](features/homework.md)** — due dates, reminders, and a during-class/custom time
+  picker.
+- **[Study Topics](features/study.md)** — track revision progress per subject, linked to upcoming
+  tests.
+- **[Quiz & Tests](features/quiz.md)** (including Final Exams) — scores, seat numbers, and pomodoro
+  focus sessions logged against them.
+- **[Subjects & Academics](features/academics.md)** — programmes, semesters, grading scales, and
+  automatic GPA/CGPA calculation.
+- **[Calendar](features/calendar.md)** — a month view combining your classes, deadlines, and
+  holidays/events in one place.
+- **[Notifications](features/notifications.md)** — push reminders for upcoming classes and deadlines,
+  on the web app and natively on Android and desktop.
+- **[Dashboard](features/dashboard.md)** analytics — GPA trend, a study streak, and focus-time charts.
+
+See the full [Features overview](features/index.md) for details on every page.
 
 ## Why it's different
 

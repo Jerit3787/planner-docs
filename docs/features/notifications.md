@@ -35,6 +35,14 @@ back to a fixed time in the late afternoon/evening instead.
 Turning notifications off removes this device's registration entirely, so no further reminders are
 sent to it.
 
+## Desktop and Android apps
+
+Notifications work a little differently in the native desktop and Android apps — see the
+[platform support table](index.md#platform-support) for the short version. Android gets real push,
+same as the web app; desktop notifications only fire while the app is actually open, since a desktop
+app has no way to wake itself up in the background the way a phone can. Turning notifications on/off
+in Settings works the same way on every platform either way.
+
 ## iPhone/iPad (iOS)
 
 !!! warning "Notifications only work once the app is on your Home Screen"

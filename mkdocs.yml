@@ -48,6 +48,7 @@ nav:
       - Guest mode vs. an account: getting-started/guest-vs-account.md
       - First-run setup: getting-started/onboarding.md
   - Features:
+      - Overview: features/index.md
       - Dashboard: features/dashboard.md
       - Schedule: features/schedule.md
       - Homework & Tasks: features/homework.md
