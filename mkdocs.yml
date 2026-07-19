@@ -19,8 +19,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-  icon:
-    logo: material/notebook-outline
+  logo: img/favicon.png
   favicon: img/favicon.png
   features:
     - navigation.instant
