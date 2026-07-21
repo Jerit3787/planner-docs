@@ -15,9 +15,11 @@ OS version for your device instead? See [System requirements](../getting-started
 | Schedule, Homework, Study, Quiz, Academics, Calendar, Dashboard | ✅ | ✅ | ✅ |
 | Offline-first (local data, syncs when back online) | ✅ | ✅ | ✅ |
 | Google Sign-In                  | ✅ | ✅ | ✅ |
+| [Google Calendar sync](settings.md#google-calendar-sync) | ✅ | ✅ | ✅ |
 | Class/deadline notifications    | ✅ Push (needs Home Screen install on iPhone/iPad) | ✅ Push | ⚠️ Local only — app must be open |
 | Data export/import, account deletion | ✅ | ✅ | ✅ |
-| Home screen / desktop widget (next class, schedule, deadlines) | ➖ Not applicable | ✅ Home screen widget | ✅ Floating window (Win/Linux) or Notification Center widget (macOS) |
+| [Home screen/desktop widgets](dashboard.md#home-screen-desktop-widget) (14 designs, incl. Pomodoro) | ➖ Not applicable | ✅ All 14, home screen | ⚠️ Pomodoro only, floating window (Win/Linux/macOS) — macOS's other 13 (Notification Center) aren't rendering correctly right now |
+| Android: [Pomodoro Live Activity](pomodoro.md#android-live-activity-notification) (lock screen/status bar countdown) | ➖ Not applicable | ✅ | ➖ Not applicable |
 | Auto-updates                    | ✅ Always up to date | ⚠️ Manual (in-app download prompt) | ✅ Automatic (downloads + installs in the background, then prompts you to restart) |
 
 **Notification differences, in short:** Android gets real push, same as the web app — reminders reach
@@ -52,6 +54,13 @@ themselves automatically when a class starts.
 
 [Read more →](study.md)
 
+## Pomodoro Focus Sessions
+
+**A timer that follows you.** Runs as a live notification on Android and a home screen/desktop widget
+everywhere, so you can see your progress without reopening the app.
+
+[Read more →](pomodoro.md)
+
 ## Subjects & Academics
 
 **GPA, calculated for you.** GPA and CGPA calculated automatically from every grade you enter,
@@ -82,7 +91,7 @@ teaching week highlighted.
 
 ## Settings
 
-Class/exam duration defaults, exam session presets, notification timing, theme, and your account &
-data — export, import, or delete everything, any time.
+Class/exam duration defaults, exam session presets, notification timing, theme, Google Calendar sync,
+home screen/desktop widgets, and your account & data — export, import, or delete everything, any time.
 
 [Read more →](settings.md)

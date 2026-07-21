@@ -37,9 +37,10 @@ upcoming deadlines, Schedule's day view).
 
 ## Pomodoro focus sessions
 
-Log a focus/study session against a quiz to build up a time-by-subject breakdown on the Dashboard. If
-you have an active Pomodoro timer running when one of today's classes or quizzes is about to start, it
-automatically pauses itself instead of silently running through it.
+Log a [Pomodoro focus session](pomodoro.md) against a quiz to build up a time-by-subject breakdown on
+the Dashboard, and feed the Dashboard's focus suggestions. If you have an active session running when
+one of today's classes or quizzes is about to start, it automatically pauses itself instead of
+silently running through it.
 
 ## Timezones and studying abroad
 

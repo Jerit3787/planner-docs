@@ -53,6 +53,7 @@ nav:
       - Schedule: features/schedule.md
       - Homework & Tasks: features/homework.md
       - Study Topics: features/study.md
+      - Pomodoro Focus Sessions: features/pomodoro.md
       - Quiz & Tests: features/quiz.md
       - Subjects & Academics: features/academics.md
       - Calendar: features/calendar.md

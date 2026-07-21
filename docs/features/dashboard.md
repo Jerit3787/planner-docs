@@ -33,14 +33,30 @@ Changes save automatically and sync with the rest of your account.
 
 ## Home screen / desktop widget
 
-Shows your next class, today's schedule, and upcoming deadlines without opening the app — updates
-whenever you open or return to the app. How you add it depends on your platform:
+![Android's widget picker showing several Student Planner widgets to choose from](../img/widget-picker-android.png)
 
-- **Android** — a resizable home screen widget. Add it the usual way (long-press your home screen →
-  Widgets → Student Planner), or tap **Add to home screen** in Settings.
-- **Windows / Linux** — a small floating widget window. Turn it on/off with the toggle in Settings.
-- **macOS** — a real Notification Center widget. Add it from the system's own Widget gallery (click the
-  date/time in the menu bar, or right-click the desktop, then choose "Edit Widgets").
+Your next class, today's schedule, this month's calendar, and more — right on your home screen or
+desktop, no need to open the app. There are 14 different widgets in fixed sizes (not resizable — each
+one is its own design, not a size variant of another), covering things like a month grid, a combined
+date+agenda view, and a quick "Add event" shortcut, plus a dedicated
+[Pomodoro focus session widget](pomodoro.md#home-screen-desktop-widget).
+
+How you add one depends on your platform:
+
+- **Android** — a real home screen widget, any of all 14. Long-press your home screen → Widgets →
+  Student Planner to browse and add whichever ones you want, or tap **Add the Everything widget** in
+  Settings for a one-tap shortcut to a representative default.
+- **macOS** — a real Notification Center widget, also all 14. Add one from the system's own Widget
+  gallery (click the date/time in the menu bar, or right-click the desktop, then choose "Edit Widgets").
+- **Windows and Linux** — a small floating widget window showing your current Pomodoro session (the
+  other 13 calendar/agenda designs aren't available in this floating-window form, only on Android/macOS
+  above). Turn it on/off with the toggle in Settings.
+
+!!! warning "macOS's Notification Center widgets aren't showing correctly right now"
+    We're still tracking down why the real WidgetKit widgets don't render correctly on a real Mac at
+    the moment (this doesn't affect Android at all). **As a workaround, macOS also offers the same
+    floating widget window Windows/Linux use** — Settings shows that toggle on macOS too, and it
+    currently only covers the Pomodoro session widget, same as Windows/Linux.
 
 ## Keyboard shortcuts
 

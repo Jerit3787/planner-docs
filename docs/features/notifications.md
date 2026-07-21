@@ -11,6 +11,12 @@ Enabling notifications registers this device to receive push reminders and requi
 notification permission. This isn't available for a guest session that hasn't linked to a real account
 yet, since reminders need somewhere to be delivered from server-side.
 
+!!! tip "A one-time prompt after signing in"
+    The first time you sign in (not for a guest session), you'll see a one-time prompt asking if you'd
+    like to turn notifications on right away — so you don't have to go find the toggle in Settings
+    yourself. Dismiss it and you can still turn notifications on from Settings any time; it won't ask
+    again after that first prompt.
+
 ## Class reminders
 
 Choose how far ahead of a class you want to be nudged — 5, 10, 15, 30, or 60 minutes before it starts —
