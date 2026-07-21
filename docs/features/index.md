@@ -7,7 +7,8 @@ with the full details.
 
 Student Planner is the same app everywhere — the web app, and the installable
 [desktop and Android apps](../index.md#why-its-different) all read and write the same data. Almost
-everything works identically on every platform; the few exceptions are below.
+everything works identically on every platform; the few exceptions are below. Looking for the minimum
+OS version for your device instead? See [System requirements](../getting-started/system-requirements.md).
 
 | Feature                         | Web (browser/PWA) | Android app         | Desktop app (Windows/macOS/Linux) |
 |----------------------------------|:---:|:---:|:---:|
