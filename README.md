@@ -23,6 +23,11 @@ python3 -m venv .venv
 
 ## Deployment
 
-`.github/workflows/deploy.yml` runs `mkdocs gh-deploy` on every push to `main`, publishing to the
-`gh-pages` branch. The repo's **Pages source must be set to the `gh-pages` branch** (Settings → Pages)
-the first time this is set up.
+The `VERSION` file selects the app release documented by this site. Set it to the
+release version before merging documentation changes to `main`. The deployment
+workflow strictly builds the site, publishes it under that version, and moves
+the `latest` alias and root redirect to it. Previously published versions stay
+available.
+
+GitHub Pages serves the site from the `gh-pages` branch. Its **Pages source must
+be set to that branch** (Settings → Pages) the first time publishing is set up.

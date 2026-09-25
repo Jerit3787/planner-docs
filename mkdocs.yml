@@ -68,3 +68,8 @@ nav:
   - Support: support.md
 
 copyright: Copyright &copy; 2021-2026 Danish Studio Production
+
+extra:
+  version:
+    provider: mike
+    default: latest

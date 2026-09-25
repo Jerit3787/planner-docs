@@ -7,13 +7,41 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: planner-docs-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v7
         with:
           python-version: "3.x"
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      - name: Validate docs version
+        id: version
+        shell: bash
+        run: |
+          version="$(bash .github/scripts/validate-docs-version.sh "$(cat VERSION)")"
+          echo "value=$version" >> "$GITHUB_OUTPUT"
+      - name: Fetch Pages history and configure the deploy identity
+        run: |
+          git fetch origin gh-pages --depth=1
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Strictly build current docs
+        run: mkdocs build --strict
+      - name: Bootstrap the historical PWA docs once
+        run: bash .github/scripts/bootstrap-legacy-version.sh
+      - name: Refresh Pages history after bootstrap
+        run: git fetch origin gh-pages --depth=1
+      - name: Deploy current version and move latest
+        run: mike deploy --push --update-aliases "${{ steps.version.outputs.value }}" latest
+      - name: Set the root default version
+        run: mike set-default --push latest
+      - name: Keep unversioned Help and Privacy URLs current
+        run: bash .github/scripts/update-unversioned-redirects.sh
