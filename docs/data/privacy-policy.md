@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 25 September 2026**
+**Last updated: 26 September 2026**
 
 This Privacy Policy describes how Stutastic Planner, published by Danish Studio Production, handles
 information when you use the app. For privacy questions, contact
@@ -47,8 +47,11 @@ Google Calendar connection is optional and requires a signed-in Stutastic Planne
 Google authorization. The app creates a dedicated calendar for its own classes, tasks, and quizzes.
 It does not access or manage your other Google calendars. A server-side authorization token is used to
 keep that calendar in sync. Choose **Disconnect** at **Settings → Google Calendar** to end the
-connection and remove the Stutastic Planner calendar. Disconnect Google Calendar before deleting your
-Stutastic Planner account; account deletion does not currently end that connection.
+connection and ask Google to remove the Stutastic Planner calendar. Account deletion also attempts to
+disconnect Google Calendar and removes the server-side sync token and mapping. If that server-side
+cleanup cannot be confirmed, account deletion stops so you can retry. Google may leave the dedicated
+calendar in your Google Account if it cannot complete the removal; you can remove it from Google
+Calendar yourself.
 
 ## How information is used
 
@@ -77,8 +80,9 @@ described in their own policies:
 Signed-in planner records remain associated with your account until you delete the account. To remove
 your Stutastic Planner account and synced planner records, choose **Delete my account** at
 **Settings → Account**. The app requires an internet connection to complete deletion of synced data.
-Disconnect Google Calendar first; deleting your Stutastic Planner account does not currently remove
-the Calendar connection or its authorization token.
+Account deletion also removes the server-side Google Calendar sync token and mapping. If the app
+cannot confirm that cleanup, it stops deletion so you can retry. The dedicated calendar is managed by
+Google and may remain in your Google Account if Google cannot complete its removal.
 
 Turning Analytics off stops future collection from that device. Information already collected by
 Firebase Analytics follows Google's retention settings. Service providers may retain copies in
@@ -89,7 +93,8 @@ planner records, not account credentials. Protect the file as you would any pers
 
 ## Children and audience
 
-Stutastic Planner does not ask you to enter your age or date of birth. If you have a question about a
+Stutastic Planner is intended for students generally and is not specifically directed to children
+under 13. The app does not ask you to enter your age or date of birth. If you have a question about a
 child's use of the app or their information, contact
 [support@danplace.tech](mailto:support@danplace.tech).
 

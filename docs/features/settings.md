@@ -21,9 +21,11 @@ Google Calendar is optional and requires a signed-in Stutastic Planner account a
 authorization. Planner creates and updates its own calendar for your classes, tasks, and quizzes; it
 does not manage your other calendars. **Let Google Calendar remind me too** is off by default.
 
-Use **Disconnect** in **Settings → Google Calendar** to stop the connection and remove the Planner
-calendar. If you plan to delete your Stutastic Planner account, disconnect Google Calendar first.
-Deleting the Planner account does not currently run the Calendar disconnect action.
+Use **Disconnect** in **Settings → Google Calendar** to stop the connection and ask Google to remove
+the Planner calendar. Account deletion also attempts to disconnect Google Calendar and remove its
+server-side sync token and mapping. If the app cannot confirm that cleanup, account deletion stops so
+you can retry. Google may leave the dedicated calendar in your account if it cannot complete its
+removal.
 
 ## Account and data
 

@@ -24,5 +24,5 @@ and restore it on another device; see [Export and Import](../data/export-import.
 **Leave without saving** ends a guest session and clears its local planner data. **Delete everything**
 also clears guest data. For a signed-in account, **Sign out** keeps its cloud account, while
 **Delete my account** removes the account and its synced planner records. Export a backup first if you
-want to keep a copy. If Google Calendar is connected, disconnect it from
-**Settings → Google Calendar** before deleting the account.
+want to keep a copy. Account deletion also attempts to disconnect Google Calendar. If the app cannot
+confirm cleanup, deletion stops so you can retry or disconnect from **Settings → Google Calendar**.

@@ -23,8 +23,9 @@ Calendar**. The app manages a dedicated calendar for its own planner items. See
 [Settings](features/settings.md#google-calendar).
 
 **How do I disconnect Google Calendar?**
-Open **Settings → Google Calendar** and choose **Disconnect**. Disconnect before deleting your
-Stutastic Planner account; account deletion does not currently perform the Calendar disconnect step.
+Open **Settings → Google Calendar** and choose **Disconnect**. You can also delete your account
+without disconnecting first; account deletion attempts to remove the Calendar connection
+automatically. If that cleanup cannot be confirmed, deletion stops so you can retry.
 
 **Can I import a timetable?**
 Yes. Choose **Import timetable** from the Planner menu to load a CSV timetable. You can also paste
@@ -35,8 +36,9 @@ Yes. In **Settings → Your data**, choose **Export everything** to save a JSON 
 [Export and Import](data/export-import.md).
 
 **How do I delete my account?**
-Open **Settings → Account** and choose **Delete my account**. Export anything you want to keep, and
-disconnect Google Calendar first if it is connected. See [Settings](features/settings.md).
+Open **Settings → Account** and choose **Delete my account**. Export anything you want to keep first.
+The app also attempts to disconnect Google Calendar; if it cannot confirm cleanup, account deletion
+stops so you can retry. See [Settings](features/settings.md).
 
 **Is planner data used for advertising?**
 The app does not include advertising. Firebase usage analytics is on by default and can be turned off
