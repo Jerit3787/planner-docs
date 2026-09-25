@@ -1485,7 +1485,7 @@
 
 
 <h1 id="privacy-policy">Privacy Policy<a class="headerlink" href="#privacy-policy" title="Permanent link">&para;</a></h1>
-<p><strong>Last updated: 25 September 2026</strong></p>
+<p><strong>Last updated: 26 September 2026</strong></p>
 <p>This Privacy Policy describes how Stutastic Planner, published by Danish Studio Production, handles
 information when you use the app. For privacy questions, contact
 <a href="mailto:support@danplace.tech">support@danplace.tech</a>.</p>
@@ -1521,8 +1521,11 @@ notification permission in your device settings. Reminders are not available on 
 Google authorization. The app creates a dedicated calendar for its own classes, tasks, and quizzes.
 It does not access or manage your other Google calendars. A server-side authorization token is used to
 keep that calendar in sync. Choose <strong>Disconnect</strong> at <strong>Settings → Google Calendar</strong> to end the
-connection and remove the Stutastic Planner calendar. Disconnect Google Calendar before deleting your
-Stutastic Planner account; account deletion does not currently end that connection.</p>
+connection and ask Google to remove the Stutastic Planner calendar. Account deletion also attempts to
+disconnect Google Calendar and removes the server-side sync token and mapping. If that server-side
+cleanup cannot be confirmed, account deletion stops so you can retry. Google may leave the dedicated
+calendar in your Google Account if it cannot complete the removal; you can remove it from Google
+Calendar yourself.</p>
 <h2 id="how-information-is-used">How information is used<a class="headerlink" href="#how-information-is-used" title="Permanent link">&para;</a></h2>
 <p>Information is used to provide the planner, authenticate accounts, sync planner records across your
 devices, maintain an optional Google Calendar connection, schedule local reminders, respond to
@@ -1545,15 +1548,17 @@ described in their own policies:</p>
 <p>Signed-in planner records remain associated with your account until you delete the account. To remove
 your Stutastic Planner account and synced planner records, choose <strong>Delete my account</strong> at
 <strong>Settings → Account</strong>. The app requires an internet connection to complete deletion of synced data.
-Disconnect Google Calendar first; deleting your Stutastic Planner account does not currently remove
-the Calendar connection or its authorization token.</p>
+Account deletion also removes the server-side Google Calendar sync token and mapping. If the app
+cannot confirm that cleanup, it stops deletion so you can retry. The dedicated calendar is managed by
+Google and may remain in your Google Account if Google cannot complete its removal.</p>
 <p>Turning Analytics off stops future collection from that device. Information already collected by
 Firebase Analytics follows Google's retention settings. Service providers may retain copies in
 backups according to their own retention practices.</p>
 <p>You can export planner records as a JSON file from <strong>Settings → Your data</strong>. The export contains
 planner records, not account credentials. Protect the file as you would any personal study record.</p>
 <h2 id="children-and-audience">Children and audience<a class="headerlink" href="#children-and-audience" title="Permanent link">&para;</a></h2>
-<p>Stutastic Planner does not ask you to enter your age or date of birth. If you have a question about a
+<p>Stutastic Planner is intended for students generally and is not specifically directed to children
+under 13. The app does not ask you to enter your age or date of birth. If you have a question about a
 child's use of the app or their information, contact
 <a href="mailto:support@danplace.tech">support@danplace.tech</a>.</p>
 <h2 id="changes-to-this-policy">Changes to this policy<a class="headerlink" href="#changes-to-this-policy" title="Permanent link">&para;</a></h2>
