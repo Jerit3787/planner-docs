@@ -1,36 +1,18 @@
 # Calendar
 
-![The Calendar month grid, with period tinting and event dots](../img/calendar-month-view.png)
+The calendar is part of **Planner**. Use **Month** view to move across dates, or switch to **Day** or
+**Week** view to see the schedule in more detail.
 
-A month view that brings your classes, deadlines, and holidays/events together in one place, colour-tinted
-by whichever semester period (lecture weeks, break, exam period, or a custom period type) each day
-falls under.
-
-## Reading the grid
-
-- Each Monday shows a small badge with that week's teaching-week number.
-- Days tint by the semester period covering them.
-- Holidays and events show as small coloured dots.
-
-## Day details
-
-![A day's detail view](../img/calendar-day-detail.png)
-
-Tap/click a day to see everything on it — classes, quizzes/tests, tasks, and holidays/events — and jump
-straight to any of them (this deep-links back to the Schedule, Quiz, or Homework page it came from).
-
-!!! note "Mobile vs. desktop layout"
-    On a phone, this opens inline below the grid so you can keep scrolling the day list without losing
-    the month view. On a larger screen it opens as a floating dialog instead, since there's enough room
-    that a fixed panel would just push the calendar off-screen.
+The month grid marks scheduled classes, tasks, quizzes, and events. Select a date to see its items.
+Your active semester's teaching periods and date range help put classes and events in context.
 
 ## Events and holidays
 
-Add your own events (with an optional multi-day span) or mark holidays directly on the Calendar — a
-holiday behaves like any other no-class period and blocks that day's classes from showing.
+Add an event from the Planner calendar. Events can span more than one day. Add holidays and other
+no-class periods in Academics so the calendar and timetable reflect breaks in your semester.
 
-## Different semester
+## Google Calendar
 
-If you page to a month with no overlap at all with your currently active semester, the Calendar shows a
-clear "different semester" notice with a link back to Academics, instead of a sparse or misleading empty
-grid.
+Google Calendar is a separate, optional connection. Stutastic Planner manages a dedicated calendar
+for its own classes, tasks, and quizzes. See [Settings](settings.md#google-calendar) to connect or
+disconnect it.

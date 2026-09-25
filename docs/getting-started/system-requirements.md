@@ -1,38 +1,28 @@
 # System requirements
 
-Student Planner runs three ways — as a web app (any modern browser), an installed PWA, or a native
-desktop/Android app. Requirements differ slightly depending on which one you use.
+Stutastic Planner runs as a native app on mobile and desktop platforms and as a web app in a browser.
 
-## Web app / PWA
+## iPhone and iPad
 
-Any evergreen browser with Service Worker and IndexedDB support works — Chrome, Edge, Firefox, or
-Safari, kept reasonably up to date. There's no hard version floor beyond that, but a few notes:
+The iOS and iPadOS app requires **iOS 15 or later**. Install it from the App Store. Allow
+notifications if you want the app to schedule class and deadline reminders on your device.
 
-- **iOS/iPadOS**: use Safari specifically — Add to Home Screen only works from Safari, and installed-PWA
-  push notifications require the app to have been added to the Home Screen first (see
-  [Notifications](../features/notifications.md)). iOS Safari can also evict local data after about two
-  weeks of the app going unopened — a real consideration for a **guest** session with no cloud backup.
-  See [Offline & Sync](../offline-and-sync.md).
-- **Android**: any recent Chrome works for both the browser and the installable PWA.
+## Android
 
-## Native desktop app
+Install the Android app from its store listing. The listing shows the minimum Android version for the
+current release.
 
-| Platform | Minimum version | Notes |
-|---|---|---|
-| macOS | **13.0 (Ventura)** or later | Universal build (Apple Silicon + Intel). Unsigned for now — right-click → Open on first launch. |
-| Windows | **Windows 10** or later, x64 or ARM64 | The Microsoft Edge WebView2 Runtime is required and auto-installs if missing. Unsigned for now — SmartScreen: "More info → Run anyway". |
-| Linux | A distro with **webkit2gtk 4.1** — Ubuntu 22.04 / Debian 12 or newer, roughly | Our published `.deb`/`.AppImage`/`.rpm` builds are compiled on Ubuntu 24.04 CI runners, so the pre-built binaries additionally need glibc 2.39+. AppImage is the safest bet on an older base. |
+## macOS
 
-Desktop builds check for updates automatically and install them in the background — see
-[Notifications](../features/notifications.md) for how you're notified once one's ready.
+The native macOS app requires **macOS 12 or later**.
 
-## Native Android app
+## Windows and Linux
 
-**Android 7.0 (API level 24)** or later. Sideloaded APK — Android will ask you to allow installing from
-this source the first time; the update flow after that uses the real system installer, same as any other
-app.
+Use the current supported release for your operating system. Requirements can vary by package; check
+the release notes that accompany the installer.
 
-## Not yet available
+## Web app
 
-**iOS as a native app** isn't built yet — no iOS project exists in this codebase yet, so on iPhone/iPad
-the [web app / PWA](#web-app-pwa) is the only option for now.
+Use a current version of Chrome, Safari, Firefox, or Edge with JavaScript and browser storage enabled.
+The web app works offline after it has loaded, but browser reminders are not available. Browser data
+can be removed when you clear site data, so export a backup if you use guest mode.

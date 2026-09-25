@@ -1,37 +1,28 @@
 # Guest mode vs. an account
 
-You can use every feature of Student Planner without ever signing in.
+You can use Stutastic Planner without creating an account.
 
 ## Guest mode
 
-Choosing **Continue as guest** starts a real (anonymous) session, but everything you enter — schedule,
-tasks, tests, study progress — stays **only on that device**, in its local storage. Nothing is ever
-uploaded. This means:
+At the end of setup, choose **Not now, keep it on this device**. Your planner records are stored on
+that device and are not synced to an account. Guest mode works offline, but uninstalling the app,
+clearing its local data, or losing the device can remove the only copy of those records. Use
+[Export everything](../data/export-import.md) to keep a backup.
 
-- It works fully offline, on the very first launch, with no signup step.
-- If you clear your browser's site data, or uninstall the app, that data is gone for good — there's no
-  backup, because nothing was ever synced.
-- It won't show up on another device. Guest data is tied to the browser/device it was created on.
+## Using an account
 
-!!! warning "iPhone/iPad guests: read this"
-    On iOS, Safari may automatically clear a web app's local storage if it goes unopened for about two
-    weeks — a platform-wide rule, not specific to this app. Since guest data has no cloud backup, that
-    would mean losing everything. If you're on iOS and plan to stick with guest mode, either open the
-    app periodically or [export your data](../data/export-import.md) as a manual backup.
+Sign in with Google or email; Apple sign-in is available on Apple platforms. An account lets the app
+sync planner records across devices when they are online. A network connection is needed to sign in
+and sync.
 
-## Signing in with an account
+If you start as a guest, you can create an account later from **Settings → Account** using
+**Create an account to sync**. Your existing planner data comes with you. You can also export a backup
+and restore it on another device; see [Export and Import](../data/export-import.md).
 
-Signing in (Google or email/password) syncs your data to the cloud, so it's available on every device
-you sign into. If you were already using the app as a guest, signing in **upgrades that same session in
-place** — everything you'd already entered as a guest comes with you automatically, nothing is lost or
-needs re-entering.
+## Signing out or deleting data
 
-If you sign in with an account that already has its own data on another device (say, you set the app up
-on your phone first, then sign in on a laptop that also has guest data), the laptop keeps showing its
-own local guest data until you explicitly create a new account — signing into an *existing* account
-doesn't silently merge two separate sets of data together.
-
-## Switching later
-
-You can start as a guest and create an account at any point from the Profile menu's **Create an
-account** button — nothing is lost in the process.
+**Leave without saving** ends a guest session and clears its local planner data. **Delete everything**
+also clears guest data. For a signed-in account, **Sign out** keeps its cloud account, while
+**Delete my account** removes the account and its synced planner records. Export a backup first if you
+want to keep a copy. If Google Calendar is connected, disconnect it from
+**Settings → Google Calendar** before deleting the account.

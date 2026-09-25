@@ -1,48 +1,39 @@
-# Student Planner
+# Stutastic Planner
 
-![The Student Planner Dashboard, showing today's classes, GPA, and analytics](img/dashboard-overview.png)
+**Stutastic Planner** helps you organise classes, coursework, exams, and study time. It is an
+offline-first app: your work is saved on your device, and signed-in accounts can sync it across
+devices when you're online.
 
-**Student Planner** is a free, installable, offline-first app for tracking your classes, homework,
-tests, and study progress in one place — built as a Progressive Web App (PWA), so it installs like a
-native app on phone, tablet, or desktop but runs from the browser with no app store required.
+The app is available for iPhone and iPad, as well as other supported mobile, desktop, and web
+platforms. The screens and a few capabilities vary by platform; see
+[System requirements](getting-started/system-requirements.md) and the
+[platform overview](features/index.md).
 
-## What it does
+## What you can do
 
-- **[Schedule](features/schedule.md)** — a weekly timetable, including classes that only run on
-  alternating weeks.
-- **[Homework & Tasks](features/homework.md)** — due dates, reminders, and a during-class/custom time
-  picker.
-- **[Study Topics](features/study.md)** — track revision progress per subject, linked to upcoming
-  tests.
-- **[Quiz & Tests](features/quiz.md)** (including Final Exams) — scores, seat numbers, and pomodoro
-  focus sessions logged against them.
-- **[Subjects & Academics](features/academics.md)** — programmes, semesters, grading scales, and
-  automatic GPA/CGPA calculation.
-- **[Calendar](features/calendar.md)** — a month view combining your classes, deadlines, and
-  holidays/events in one place.
-- **[Notifications](features/notifications.md)** — push reminders for upcoming classes and deadlines,
-  on the web app and natively on Android and desktop.
-- **[Dashboard](features/dashboard.md)** analytics — GPA trend, a study streak, and focus-time charts.
+- **[Planner](features/schedule.md)** — view your timetable by day, week, or month; import a CSV
+  timetable or export classes to a calendar file.
+- **[Homework and tasks](features/homework.md)** — track deadlines and progress.
+- **[Study topics](features/study.md)** — organise revision and connect topics to tests.
+- **[Quizzes and exams](features/quiz.md)** — record test dates, results, and exam details.
+- **[Subjects and academics](features/academics.md)** — organise programmes and semesters and track
+  grades and GPA.
+- **[Focus sessions](features/pomodoro.md)** — run a Pomodoro timer and log study time.
+- **[Reminders](features/notifications.md)** — schedule class and deadline reminders on supported
+  native devices.
+- **[Overview and analytics](features/dashboard.md)** — see study and semester summaries.
 
-See the full [Features overview](features/index.md) for details on every page.
+## Start here
 
-## Why it's different
+You can set up a semester and use the app without creating an account. Choose
+**Not now, keep it on this device** at the account step to continue as a guest. Guest planner data
+stays on that device. Sign in if you want your planner data to sync across devices. Read
+[Guest mode vs. an account](getting-started/guest-vs-account.md) for details.
 
-- **Works offline.** Every page reads and writes to a local database first — you can add a task on
-  a plane with no signal and it'll sync the moment you're back online.
-- **No account required.** Try the whole app as a guest; your data stays on that device only. Sign in
-  later (Google or email) to sync across devices, and everything you already entered as a guest comes
-  with you.
-- **Free, no ads.** See the [Privacy Policy](https://planner.danplace.tech/privacy.html) and
-  [Terms](https://planner.danplace.tech/terms.html) for the specifics.
+See the [first-run setup guide](getting-started/onboarding.md) or go straight to a feature from the
+navigation menu.
 
-!!! tip "Install it like a real app"
-    Most browsers offer an "Install" or "Add to Home Screen" option for Student Planner — see
-    [Installing as an app](offline-and-sync.md#installing-as-an-app). On iPhone/iPad this is required,
-    not just convenient, for push notifications to work at all.
+## Privacy and support
 
-## Where to start
-
-New to the app? Read [Guest mode vs. an account](getting-started/guest-vs-account.md), then walk
-through what the [first-run setup](getting-started/onboarding.md) asks you for. Already set up? Jump
-straight to the feature you're looking for in the nav above.
+Read the [Privacy Policy](data/privacy-policy.md), or contact
+[support@danplace.tech](mailto:support@danplace.tech) for help.

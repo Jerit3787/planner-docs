@@ -1,28 +1,33 @@
-# Export & import
+# Export and Import
 
-## Exporting
+Open **Settings → Your data** to export a backup or restore one.
 
-**Export my data** (in [Settings](../features/settings.md)) downloads everything you've entered —
-schedule, tasks, tests, subjects, grades, study topics, focus logs — as a single JSON file. It works
-fully offline and for guest sessions too, since it reads straight from your device's local database
-rather than the cloud.
+## Export everything
 
-!!! tip "Good times to export"
-    - Before clearing your browser's site data, if you're using guest mode (which has no cloud backup).
-    - As a personal backup before a big change (switching programmes, a semester reset).
-    - Before letting the app on an iPhone/iPad sit unopened for a while — see the iOS storage note in
-      [Offline & sync](../offline-and-sync.md#installing-as-an-app).
-    - To move your data somewhere else manually.
+Choose **Export everything** to save a dated JSON backup containing the planner records for the
+current session. This works offline and in guest mode. Account credentials and passwords are not part
+of the backup. Keep the file somewhere safe: it contains your personal study information.
 
-## Importing
+Export a backup before clearing app or browser data, changing devices, or using Replace during a
+restore. Guest data has no cloud copy until you create an account.
 
-**Import data** loads a previously exported JSON file back into the app on the current device. This is
-the main way to get a guest's data onto a new device without creating an account — export on the old
-device, import on the new one.
+## Restore from a backup
 
-## What's included
+Choose **Restore from a backup**, select a backup file from Stutastic Planner or the earlier web app,
+then choose how to apply it:
 
-The export contains every record type the app stores: schedule classes, tasks, quizzes/tests
-(including Final Exams), study topics, subjects, programmes (including any timezone override),
-semesters (including periods and biweekly anchor dates), and settings. Account credentials themselves
-(your email/password) are never part of the export — only the academic data you entered.
+- **Merge** keeps existing records and adds or updates records from the backup.
+- **Replace** deletes the current planner data first, then restores the file. The app
+  asks you to confirm because this cannot be undone.
+
+Restoring a backup does not restore account credentials. Sign in separately if you want to sync.
+
+## Move guest data to another device
+
+Export a backup on the original device, move the file securely, then restore it on the new device.
+Alternatively, create an account from **Settings → Account** to sync your existing planner data.
+
+## Import a timetable
+
+To import class rows from a CSV timetable, open **Planner** and choose **Import timetable** from its
+menu. This is separate from restoring a full planner backup.

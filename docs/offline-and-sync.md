@@ -1,46 +1,33 @@
-# Offline & sync
+# Offline use and sync
 
-![The sync status panel, showing connection, account, and sync state](img/offline-sync-status-panel.png)
+Stutastic Planner saves planner changes to a local database on your device first. You can use the
+planner while offline.
 
-Student Planner is **offline-first** — every page reads and writes to a local database on your device
-first, so the app works with no connection at all, not just as a fallback.
+## Guest mode
 
-## How syncing works
+Guest planner records stay on the device and do not sync. Export a backup regularly if you need a
+second copy or plan to move to another device. Clearing app data or uninstalling the app can remove
+the local copy.
 
-If you're signed into a real (non-guest) account and online, your local changes sync to the cloud
-automatically in the background, and you can see the current status via the small cloud icon in the top
-bar. Clicking it opens a status panel with your connection, account, and sync state, plus a **Sync now**
-button to force an immediate sync instead of waiting.
+## Using an account
 
-A guest session never syncs — see [Guest mode vs. an account](getting-started/guest-vs-account.md) — so
-that cloud icon doesn't appear for a guest at all.
+When you are signed in and online, your planner records sync to your account. Changes made offline
+remain on the device and sync when the connection returns. Sign in to the same account on another
+device to access its synced records there.
 
-## What happens when you're offline
+## Internet connection
 
-Nothing is blocked. Add a class, log a grade, complete a task — it all saves locally immediately. The
-moment you're back online (and signed in), those changes push up automatically; nothing needs to be
-redone manually.
+Offline use does not require a connection for local planner actions. Sign-in, account creation,
+cross-device sync, and Google Calendar connection do require internet access.
 
-## Conflicts
+## App and browser storage
 
-If the same record was changed on two devices while one was offline, the app resolves it by keeping
-whichever edit happened most recently (last-write-wins) and shows a small hint in the UI so you're aware
-a conflict was resolved rather than it happening silently.
+The native app keeps its local database in app storage. The web app uses browser storage. If you clear
+browser or app data, or uninstall the app, unsynced guest data may be lost. Use
+[Export and Import](data/export-import.md) to create a backup.
 
-## Installing as an app
+## Installing the web app
 
-Student Planner is a PWA — most browsers offer an "Install" or "Add to Home Screen" option, which gives
-it its own icon and window, launching without browser chrome, just like a native app.
-
-!!! warning "iPhone/iPad (iOS)"
-    This step isn't optional on iOS the way it is elsewhere:
-
-    - **Push notifications require it.** Safari only delivers Web Push to a PWA that's been added to
-      the Home Screen and opened from there — see [Notifications](features/notifications.md#iphoneipad-ios).
-    - **Guest data can be evicted.** If you don't open the app for about two weeks, iOS may clear its
-      local storage automatically to free up space. A guest session has no cloud backup, so that data
-      would be gone for good — either open the app periodically or
-      [create an account](getting-started/guest-vs-account.md) if you're on iOS long-term.
-    - There's no periodic background sync on iOS (a platform-wide restriction, not specific to this
-      app) — syncing happens when you actually open the app, not silently in the background while it's
-      closed.
+You can use the web app in a browser or install it from the browser's install option when available.
+This is optional; iPhone and iPad also have a native app. Web reminders are not available, so use the
+native app if you want scheduled reminders from Stutastic Planner.

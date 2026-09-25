@@ -1,50 +1,47 @@
-# FAQ
+# Frequently asked questions
 
-**Does the app work offline?**
-Yes — every page reads and writes to a local database first. See [Offline & sync](offline-and-sync.md).
+**Does Stutastic Planner work offline?**
+Yes. Planner changes are saved on your device. If you use an account, they sync when you are online.
+Guest records stay on that device. See [Offline use and sync](offline-and-sync.md).
 
-**Do I need an account?**
-No. You can use the entire app as a guest; your data just stays on that one device. See
-[Guest mode vs. an account](getting-started/guest-vs-account.md).
+**Do I need to create an account?**
+No. Choose **Not now, keep it on this device** during setup to continue as a guest. Guest records do
+not sync. See [Guest mode vs. an account](getting-started/guest-vs-account.md).
 
-**I used the app as a guest and want to switch devices — how do I bring my data with me?**
-Either sign in with a real account (which uploads your guest data automatically), or export your data as
-JSON and import it on the new device. See [Export & import](data/export-import.md).
+**How do I use my guest data on another device?**
+Create an account from **Settings → Account** to sync your current planner data, or export a backup and
+restore it on the other device. See [Export and Import](data/export-import.md).
 
-**Why did my scheduled class/deadline time shift after I traveled or changed my device's timezone?**
-Times are stored as a fixed point in time and displayed converted to your device's current timezone —
-the same way most calendar apps behave, so a class you scheduled at 9am your original timezone shows
-correctly whichever timezone you're actually in later.
+**Why are reminders unavailable in the web app?**
+The web app does not schedule reminders. Use a supported native app, enable **Settings → Reminders**,
+and allow notifications in your device settings. Reminders are stored on that device and do not need
+an account. See [Reminders](features/notifications.md).
 
-**My programme is based in a different country than where I'm actually studying — how do I handle that?**
-Set a timezone override on that Programme (in Academics). Classes, quizzes/exams, and task due times
-are then authored in that timezone, but always display converted for wherever you actually are. See
-[Programmes](features/academics.md#programmes).
+**How do I connect Google Calendar?**
+Sign in to Stutastic Planner, then open **Settings → Google Calendar** and choose **Connect Google
+Calendar**. The app manages a dedicated calendar for its own planner items. See
+[Settings](features/settings.md#google-calendar).
 
-**How does the app know which week is "Week A" for my alternating classes?**
-From the biweekly anchor date you set on your semester. See
-[Alternating (biweekly) classes](features/schedule.md#alternating-biweekly-classes).
+**How do I disconnect Google Calendar?**
+Open **Settings → Google Calendar** and choose **Disconnect**. Disconnect before deleting your
+Stutastic Planner account; account deletion does not currently perform the Calendar disconnect step.
 
-**Why does my GPA show a "~" in front of it?**
-It means the number is still an estimate — at least one subject in that calculation isn't finally
-graded yet. See [Subjects and grading](features/academics.md#subjects-and-grading).
+**Can I import a timetable?**
+Yes. Choose **Import timetable** from the Planner menu to load a CSV timetable. You can also paste
+timetable text during first-run setup.
 
-**I'm on iPhone/iPad and notifications won't turn on — why?**
-Add the app to your Home Screen first (Safari's **Share → Add to Home Screen**), then open it from
-that icon and try again — Safari only delivers push notifications to an installed PWA, not a regular
-browser tab. See [Notifications on iOS](features/notifications.md#iphoneipad-ios).
-
-**I'm using guest mode on an iPhone/iPad — is my data safe if I don't open the app for a while?**
-Not indefinitely. iOS can clear a web app's local storage after about two weeks of it going unopened,
-and guest data has no cloud backup to fall back on. Open the app periodically, or
-[create an account](getting-started/guest-vs-account.md) so it's backed up to the cloud instead.
-
-**Is my data ever sold or shared?**
-No. See [Privacy & terms](data/privacy-and-terms.md).
+**Can I create a backup?**
+Yes. In **Settings → Your data**, choose **Export everything** to save a JSON backup. See
+[Export and Import](data/export-import.md).
 
 **How do I delete my account?**
-From [Settings](features/settings.md) → Delete account. This is permanent and removes everything on
-every device.
+Open **Settings → Account** and choose **Delete my account**. Export anything you want to keep, and
+disconnect Google Calendar first if it is connected. See [Settings](features/settings.md).
 
-**I found a bug or have a feature request — where do I report it?**
-Email [support@danplace.tech](mailto:support@danplace.tech).
+**Is planner data used for advertising?**
+The app does not include advertising. Firebase usage analytics is on by default and can be turned off
+for a device under **Settings → Privacy**. See the [Privacy Policy](data/privacy-policy.md).
+
+**How do I report a problem?**
+Email [support@danplace.tech](mailto:support@danplace.tech). Include the app version, device and OS,
+and the steps that caused the problem. Do not email passwords, sign-in codes, or private study records.

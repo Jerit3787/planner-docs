@@ -1,51 +1,30 @@
-# Schedule
+# Planner
 
-![The full-week timetable view](../img/schedule-week-view.png)
-![The day-tabs view at mobile width](../img/schedule-day-tabs-mobile.png)
+The **Planner** brings your timetable, calendar, and events together. Choose the **Day**, **Week**, or
+**Month** view to see classes and other scheduled items for your active semester.
 
-Your weekly timetable — one page for every day, with a day-tabs view on mobile and a full-week
-timetable view on larger screens.
+## Add classes
 
-## Adding a class
-
-Each class has a subject, location, start/end time, an icon, and a colour. If you leave the end time
-blank, it's auto-filled from the start time plus your default class duration (set in
-[Settings](settings.md)) — you can always override it manually.
+Add a class with its subject, day, time, and optional location. Classes can repeat weekly or on
+alternating Week A and Week B patterns.
 
 ## Alternating (biweekly) classes
 
-If a class only runs every other week, set **Which week(s)** to "Week A only" or "Week B only" instead
-of "Every week" when adding or editing it. This needs your semester to have a **biweekly anchor date**
-set first (in [Academics](academics.md) → your semester) — that anchor date defines which calendar week
-counts as "Week A". A small "Week A" / "Week B" chip in the Schedule page's header always tells you
-which week you're currently in.
+Set a Week A anchor date for the semester in **Academics**. Then choose whether a class runs every
+week, in Week A, or in Week B when you add or edit it.
 
-## No-class periods
+## Import a timetable
 
-If your semester has a break, exam period, holiday, or custom no-class period defined (see
-[Subjects & Academics](academics.md#semesters-and-periods)), the Schedule page and the Dashboard's
-"Today's classes" card show a banner for that day instead of your normal timetable — so you're not
-staring at a class list for a day you don't actually have class.
+Choose **Import timetable** from the Planner menu to load a CSV timetable. During first-run setup,
+you can also paste timetable text. Review the imported rows and match them to subjects before
+continuing.
 
-## Importing a timetable
+## Export to a calendar
 
-![The timetable import dialog](../img/schedule-import-dialog.png)
+Choose **Export to a calendar** from the Planner menu to save an `.ics` file for the active semester.
+You can open or import this file with calendar apps that support the iCalendar format.
 
-Instead of adding classes one at a time, you can import a spreadsheet (`.xlsx`/`.csv`) via the import
-button — useful if your institution already publishes your timetable as a spreadsheet.
+## Time zones
 
-## Exporting to a calendar app
-
-**Export .ics** downloads your timetable as a standard calendar file (weekly-recurring events, bounded
-to your semester's date range) that you can import into Google Calendar, Apple Calendar, Outlook, or
-any other app that reads `.ics` files.
-
-## Timezones and studying abroad
-
-!!! info "Only relevant if your programme is based somewhere else"
-    If your programme has a [timezone override](academics.md#programmes) set, a class's day and time
-    are entered in that programme's timezone. The day-tabs/timetable view (and any device you check it
-    from) always shows it converted correctly for wherever you currently are — occasionally this means
-    a class you entered as, say, "Monday 11pm" in your programme's timezone actually shows as
-    "Tuesday" on your own device, which is expected, not a bug, once the two timezones are far enough
-    apart.
+Classes use the time zone set for their programme. If the programme has no override, the device's
+time zone is used. When you travel, times are displayed for the current device time zone.

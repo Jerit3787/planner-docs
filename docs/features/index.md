@@ -1,97 +1,47 @@
 # Features
 
-Everything your semester needs, in one offline-first app. Each section below links to its own page
-with the full details.
+Stutastic Planner includes a timetable and calendar, tasks, study topics, quizzes and exams,
+academic records, analytics, and focus sessions. The Flutter app is available on iOS/iPadOS, Android,
+macOS, Windows, Linux, and the web. The experience adapts to the device, so some controls and system
+features vary by platform.
 
-## Platform support
+| Capability | Availability |
+|---|---|
+| Planner, subjects, tasks, quizzes, study topics, academics, and focus sessions | Supported app platforms |
+| Offline use | Planner data is saved locally first. Account sync needs an internet connection. |
+| Guest use | Available; guest planner data stays on that device until you export it or create an account. |
+| Scheduled reminders | Native apps only; reminders are stored on the device and require notification permission. |
+| Google Calendar | Optional; requires a signed-in account and Google authorization. |
+| Apple sign-in | Available on Apple platforms. Google and email sign-in are also available where supported. |
+| Backup and restore | Export a JSON backup and restore it on a supported platform. |
 
-Student Planner is the same app everywhere — the web app, and the installable
-[desktop and Android apps](../index.md#why-its-different) all read and write the same data. Almost
-everything works identically on every platform; the few exceptions are below. Looking for the minimum
-OS version for your device instead? See [System requirements](../getting-started/system-requirements.md).
+## Planner
 
-| Feature                         | Web (browser/PWA) | Android app         | Desktop app (Windows/macOS/Linux) |
-|----------------------------------|:---:|:---:|:---:|
-| Schedule, Homework, Study, Quiz, Academics, Calendar, Dashboard | ✅ | ✅ | ✅ |
-| Offline-first (local data, syncs when back online) | ✅ | ✅ | ✅ |
-| Google Sign-In                  | ✅ | ✅ | ✅ |
-| [Google Calendar sync](settings.md#google-calendar-sync) | ✅ | ✅ | ✅ |
-| Class/deadline notifications    | ✅ Push (needs Home Screen install on iPhone/iPad) | ✅ Push | ⚠️ Local only — app must be open |
-| Data export/import, account deletion | ✅ | ✅ | ✅ |
-| [Home screen/desktop widgets](dashboard.md#home-screen-desktop-widget) (14 designs, incl. Pomodoro) | ➖ Not applicable | ✅ All 14, home screen | ⚠️ Pomodoro only, floating window (Win/Linux/macOS) — macOS's other 13 (Notification Center) aren't rendering correctly right now |
-| Android: [Pomodoro Live Activity](pomodoro.md#android-live-activity-notification) (lock screen/status bar countdown) | ➖ Not applicable | ✅ | ➖ Not applicable |
-| Auto-updates                    | ✅ Always up to date | ⚠️ Manual (in-app download prompt) | ✅ Automatic (downloads + installs in the background, then prompts you to restart) |
-
-**Notification differences, in short:** Android gets real push, same as the web app — reminders reach
-you even when the app is closed. Desktop can't wake itself up in the background the way a phone or
-browser can, so a reminder only fires while the desktop app happens to be open.
-
-## Schedule
-
-**Recurring classes, laid out for you.** Set a class once and it repeats all semester — day and week
-views, alternating-week (Week A/B) classes, and one-click XLSX/CSV timetable import.
+**Classes and events in one place.** View a semester by day, week, or month. Import a CSV timetable,
+or export classes to an `.ics` calendar file.
 
 [Read more →](schedule.md)
 
-## Quiz & Tests
+## Homework and tasks
 
-**Every test, tracked to a score.** Link study topics to every test, track scores, and let status
-update itself as you go — includes Final Exams with seat numbers.
+Track due dates, optional due times, and progress. See [Homework and Tasks](homework.md).
 
-[Read more →](quiz.md)
+## Study topics and focus
 
-## Homework & Tasks
+Track revision progress, link topics to tests, and record focused study time with the Pomodoro timer.
+See [Study Topics](study.md) and [Focus Sessions](pomodoro.md).
 
-**Progress bars, not checkboxes.** Drag to 100% and it's done — no separate toggle to remember to
-tick. Supports a during-class or custom due time.
+## Quizzes, exams, and academics
 
-[Read more →](homework.md)
+Record quiz and exam dates and results, organise programmes and semesters, and follow grades and GPA.
+See [Quiz and Tests](quiz.md) and [Subjects and Academics](academics.md).
 
-## Study Topics
+## Reminders
 
-**Focus sessions that know your day.** Pomodoro sessions that mix tests, tasks, and topics — and pause
-themselves automatically when a class starts.
+On supported native platforms, the app schedules reminders on your device. Web reminders are not
+available. See [Reminders](notifications.md).
 
-[Read more →](study.md)
+## Settings and data
 
-## Pomodoro Focus Sessions
-
-**A timer that follows you.** Runs as a live notification on Android and a home screen/desktop widget
-everywhere, so you can see your progress without reopening the app.
-
-[Read more →](pomodoro.md)
-
-## Subjects & Academics
-
-**GPA, calculated for you.** GPA and CGPA calculated automatically from every grade you enter,
-semester by semester, across programmes and years.
-
-[Read more →](academics.md)
-
-## Notifications
-
-**A nudge before it's too late.** A push notification before class starts, and one the morning
-something's due — even offline. Available on the web app, and natively on Android and desktop.
-
-[Read more →](notifications.md)
-
-## Dashboard
-
-Your day at a glance — today's classes, semester GPA, a study streak, upcoming deadlines, and a
-focus-time breakdown by subject, right when you open the app.
-
-[Read more →](dashboard.md)
-
-## Calendar
-
-A month view combining your classes, deadlines, holidays, and events in one place, with the current
-teaching week highlighted.
-
-[Read more →](calendar.md)
-
-## Settings
-
-Class/exam duration defaults, exam session presets, notification timing, theme, Google Calendar sync,
-home screen/desktop widgets, and your account & data — export, import, or delete everything, any time.
-
-[Read more →](settings.md)
+Manage appearance, reminders, Google Calendar, account access, privacy preferences, and backups in
+Settings. See [Settings](settings.md) and [Export and Import](../data/export-import.md).

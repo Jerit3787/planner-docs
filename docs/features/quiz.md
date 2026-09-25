@@ -1,7 +1,5 @@
 # Quiz & Tests
 
-![Quiz & Tests list, mixing regular tests and a Final Exam](../img/quiz-list.png)
-
 Track quizzes, tests, and Final Exams — with scores, status, and an optional linked focus/revision
 trail.
 
@@ -12,23 +10,20 @@ Set a date and (optionally) a time, a topic link, and a status.
 !!! tip "You don't need to close it out yourself"
     Once the scheduled time passes, an unfinished quiz automatically flips to **Completed** — there's
     no separate button to click. Add a score once it's graded (any time before or after that automatic
-    flip), and it feeds the Dashboard's score-trend chart.
+    flip), and it appears in analytics.
 
 ## Final Exams
-
-![The Final Exam form, with seat number and session quick-picks](../img/quiz-final-exam-form.png)
 
 Toggle **Final Exam** on the same form to switch it into exam mode. This adds:
 
 - A **seat/table number** field.
 - Quick-pick buttons for the exam's start time, one per **exam session** you've defined in
-  [Settings](settings.md#preferences) (e.g. "Morning", "Evening", or any custom label/time you've set
-  up there) — final exam schedules are usually published in session blocks rather than exact times, so
-  picking a session fills in its start time for you.
+  [Settings → Class and exam lengths](settings.md#available-settings) — final exam schedules are
+  often published in session blocks rather than exact times, so picking a preset fills in its start
+  time for you.
 
 A Final Exam is otherwise the same underlying record as a regular quiz — topic links, focus sessions,
-and score all carry over, and it shows up everywhere a regular quiz would (Calendar, Dashboard's
-upcoming deadlines, Schedule's day view).
+and score all carry over, and it appears in Planner and the upcoming-work summary.
 
 !!! note "End time defaults"
     If you leave the end time blank, it fills in from the start time plus your **default examination
@@ -37,8 +32,8 @@ upcoming deadlines, Schedule's day view).
 
 ## Pomodoro focus sessions
 
-Log a [Pomodoro focus session](pomodoro.md) against a quiz to build up a time-by-subject breakdown on
-the Dashboard, and feed the Dashboard's focus suggestions. If you have an active session running when
+Log a [focus session](pomodoro.md) against a quiz to build up a time-by-subject breakdown in
+analytics. If you have an active session running when
 one of today's classes or quizzes is about to start, it automatically pauses itself instead of
 silently running through it.
 

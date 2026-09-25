@@ -1,7 +1,5 @@
 # Study Topics
 
-![Study Topics list with progress bars](../img/study-topic-list.png)
-
 Break a subject down into individual topics/chapters and track your revision progress on each one —
 separately from the assignment-style tracking in [Homework & Tasks](homework.md).
 
@@ -12,7 +10,7 @@ date (for example, "revise by the night before the test") independent of any lin
 
 ## Linking to a test
 
-Linking a study topic to a [quiz/test](quiz.md) is what powers the Dashboard's **focus suggestions** —
+Linking a study topic to a [quiz/test](quiz.md) is what powers **focus suggestions** in analytics —
 topics under 100% progress with a linked test coming up soon are surfaced first, so you always have a
 concrete answer to "what should I revise next" instead of having to work it out yourself.
 

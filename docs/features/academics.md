@@ -1,7 +1,5 @@
 # Subjects & Academics
 
-![The Academics page, Semesters tab](../img/academics-overview.png)
-
 The structural layer everything else hangs off: **programmes** → **semesters/years** → **subjects**,
 plus automatic GPA/CGPA calculation from your grades.
 
@@ -13,7 +11,6 @@ active programme filters everything else in the app down to just that programme'
 can set default grading settings so every new semester under it starts pre-configured.
 
 !!! info "Studying abroad? A programme can have its own timezone"
-    ![The Programme edit form's timezone override field](../img/academics-programme-timezone.png)
     If your programme is based somewhere other than where you're physically studying (an exchange
     semester, a fully-remote degree in another country), open the programme and set a **timezone
     override**. Every class, quiz/exam, and task due time you enter under that programme's semesters is
@@ -29,12 +26,11 @@ revision week, exam period, holidays, or a fully **custom** period (any name you
 "classes run" and "counts as a teaching week" flags — useful for something like an orientation week or
 reading week that doesn't fit the built-in types). Each period drives:
 
-- The teaching-week number shown on the Calendar and Schedule.
+- The teaching-week number shown in Planner.
 - No-class banners on days that fall inside a break/exam/holiday period.
 - The [biweekly anchor date](schedule.md#alternating-biweekly-classes) for Week A/B classes.
 
 !!! tip "Adding periods is faster than it looks"
-    ![The semester Periods editor, with a few periods listed](../img/academics-periods-editor.png)
     A new period's start date auto-fills from wherever the previous one left off (or the semester's own
     start date, for the very first period), with a 1-day placeholder end date — so you're mostly just
     adjusting end dates and picking a type as you go, not typing every date from scratch.
@@ -63,7 +59,7 @@ If you're exempted from a subject requirement under a different programme (a tra
 example), you can mark that directly from a subject's details — exempted subjects can be edited or
 removed later from that programme's own page, not just added.
 
-## GPA/CGPA on the Dashboard
+## GPA/CGPA summaries
 
-Your active semester's GPA, alongside a study streak and upcoming deadlines, is summarized right on the
-[Dashboard](dashboard.md) — no need to open Academics just to check where you stand.
+Your active semester's GPA and other study summaries are available on the Today and analytics screens
+([overview and analytics](dashboard.md)).

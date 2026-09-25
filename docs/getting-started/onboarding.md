@@ -1,39 +1,25 @@
 # First-run setup
 
-![The onboarding wizard's Welcome step](../img/onboarding-welcome.png)
+The first-run setup helps you create a semester and get a timetable started. The setup screens are:
 
-The first time you open the app, you'll walk through a short setup wizard instead of landing straight
-on a bare sign-in screen:
+1. **Your semester** — enter a semester name and date range. A programme name is optional.
+2. **Your subjects** — add the subjects you are taking. Credits are optional.
+3. **Your timetable** — add classes, paste a timetable, or finish setup and add classes later.
+4. **Reminders** — on supported native devices, choose whether to enable device reminders. The web
+   app does not offer reminders.
+5. **Your week is ready** — review the classes and subjects you added.
+6. **Account** — create an account or sign in to sync, or choose
+   **Not now, keep it on this device** to continue as a guest.
 
-1. **Welcome** — if you already have an account, you can skip straight to sign-in from here.
-2. **Semester** — name your current semester and its date range (used to compute your teaching-week
-   numbers and GPA).
-3. **Subjects** — add the subjects you're taking this semester.
-4. **Classes** — add your weekly timetable for those subjects. You can always add more later from the
-   Schedule page.
-5. **Account** — pick a name, then choose Google sign-in, email/password, or **Continue as guest**.
+The reminder step is skipped when reminders are unavailable or already enabled. You can change
+reminder settings later from **Settings → Reminders**.
 
-![The onboarding wizard's account-choice step](../img/onboarding-account-step.png)
+## Skip setup
 
-Everything you enter in steps 2-4 is saved locally as you go, even before you've picked an
-authentication method — so if you back out partway through and come back later, nothing is lost, and
-whichever account option you eventually pick, that data gets synced up automatically on the next page
-load.
+Choose **Skip setup** at any setup step to continue as a guest without finishing the wizard. You can
+add a semester, subjects, and classes later. The account step has its own guest option.
 
-## Skipping setup
+## Sign-in options
 
-If you'd rather explore the app first and set things up as you go, choose **Skip setup** — you'll land
-straight on the account-choice step, and can add your semester, subjects, and classes manually later
-from the Academics and Schedule pages.
-
-## Redoing setup
-
-The wizard only shows itself once per device. If you want to run through it again (for example, testing
-it, or starting fresh on a device that already has data), an existing guest session gets a confirmation
-first — continuing wipes that device's local data so setup doesn't create a second, disconnected
-semester on top of what's already there.
-
-!!! tip "Studying for a programme based elsewhere?"
-    Setup doesn't ask about this up front — if your degree is based in a different timezone than where
-    you're physically studying, set that once you're in the app, from your Programme's own settings.
-    See [Programmes](../features/academics.md#programmes).
+You can use Google or email sign-in. Apple sign-in is available on Apple platforms. Creating an account
+is optional; see [Guest mode vs. an account](guest-vs-account.md).
