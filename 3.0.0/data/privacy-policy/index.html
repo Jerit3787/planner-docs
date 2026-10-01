@@ -689,6 +689,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../features/university-import/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Import from your university
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../features/homework/" class="md-nav__link">
         
   
@@ -1184,6 +1212,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#university-timetable-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        University timetable import
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1407,6 +1446,17 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#university-timetable-import" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        University timetable import
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1485,7 +1535,7 @@
 
 
 <h1 id="privacy-policy">Privacy Policy<a class="headerlink" href="#privacy-policy" title="Permanent link">&para;</a></h1>
-<p><strong>Last updated: 26 September 2026</strong></p>
+<p><strong>Last updated: 1 October 2026</strong></p>
 <p>This Privacy Policy describes how Stutastic Planner, published by Danish Studio Production, handles
 information when you use the app. For privacy questions, contact
 <a href="mailto:support@danplace.tech">support@danplace.tech</a>.</p>
@@ -1526,10 +1576,34 @@ disconnect Google Calendar and removes the server-side sync token and mapping. I
 cleanup cannot be confirmed, account deletion stops so you can retry. Google may leave the dedicated
 calendar in your Google Account if it cannot complete the removal; you can remove it from Google
 Calendar yourself.</p>
+<h3 id="university-timetable-import">University timetable import<a class="headerlink" href="#university-timetable-import" title="Permanent link">&para;</a></h3>
+<p>Importing from your university is optional. When you use it:</p>
+<ul>
+<li>The app sends your chosen university, student ID and portal password over an encrypted connection
+  to the Stutastic Planner import service. The service uses them only to sign in to your university's
+  portal and return your timetable to the app. It doesn't store your password, student ID or
+  timetable, and its logs are turned off.</li>
+<li>To prevent misuse, the service counts sign-in attempts per network address and per student ID for
+  about an hour. These counts are kept under one-way (SHA-256) hashes, never the address or ID
+  itself. Requests must also carry a Firebase App Check token showing they come from the app.</li>
+<li>Your university's portal receives your student ID and password, as when you sign in to it
+  yourself. Its own privacy policy applies to that sign-in.</li>
+<li>The app remembers your chosen university and student ID on your device so you don't retype them.
+  Your password is not kept unless you choose <strong>Keep me signed in to refresh my timetable</strong>.</li>
+<li>If you choose to stay signed in, your password is kept only on your device, in the operating
+  system's secure storage. It's never synced to your account, sent to us for storage, or included in
+  exports. The record of which semester follows which portal also stays on your device and isn't
+  synced. Choose <strong>Forget my login</strong> at <strong>Settings → University timetable</strong> to delete it; signing out
+  or deleting your account also deletes it. This option isn't offered on the web.</li>
+<li>The import service is free software under the GNU Affero General Public License. Its source code
+  is available at
+  <a href="https://github.com/Jerit3787/planner-connect">github.com/Jerit3787/planner-connect</a>.</li>
+</ul>
 <h2 id="how-information-is-used">How information is used<a class="headerlink" href="#how-information-is-used" title="Permanent link">&para;</a></h2>
 <p>Information is used to provide the planner, authenticate accounts, sync planner records across your
-devices, maintain an optional Google Calendar connection, schedule local reminders, respond to
-support requests, and understand general app usage when Analytics is enabled.</p>
+devices, import and refresh your university timetable when you ask, maintain an optional Google
+Calendar connection, schedule local reminders, respond to support requests, and understand general
+app usage when Analytics is enabled.</p>
 <p>Stutastic Planner does not include advertising and does not sell your personal information.</p>
 <h2 id="service-providers">Service providers<a class="headerlink" href="#service-providers" title="Permanent link">&para;</a></h2>
 <p>The app uses third-party services to provide its features. Those providers process information as
@@ -1543,6 +1617,8 @@ described in their own policies:</p>
 <li><a href="https://supabase.com/privacy">Supabase privacy policy</a> — storage and services used for account
   data.</li>
 <li><a href="https://www.apple.com/legal/privacy/">Apple privacy policy</a> — if you choose Apple sign-in.</li>
+<li><a href="https://www.cloudflare.com/privacypolicy/">Cloudflare privacy policy</a> — hosting for the university
+  timetable import service.</li>
 </ul>
 <h2 id="retention-and-deletion">Retention and deletion<a class="headerlink" href="#retention-and-deletion" title="Permanent link">&para;</a></h2>
 <p>Signed-in planner records remain associated with your account until you delete the account. To remove
