@@ -9,11 +9,14 @@ The app lists the universities it can import from, with the name of each one's p
 currently includes IIUM (i-Ma'luum), UiTM, IIC, APU, UniKL, UTM and UPSI. Universities are added as
 the import service gains support for them.
 
+IIUM's import is available in the app on your phone, tablet or computer, but not on the web.
+
 ## Import a semester
 
-You can start an import from three places:
+You can start an import from four places:
 
 - **Planner** menu → **Import from your university**;
+- the **Subjects** title bar → **Import from your university**;
 - a semester's details → **Import timetable**;
 - the **Your timetable** step of first-run setup.
 
@@ -22,7 +25,9 @@ Then:
 1. **Choose your university.** The app remembers your choice on this device.
 2. **Sign in** with your student ID and portal password. Your student ID is remembered on this
    device; your password is not, unless you choose to stay signed in (see below).
+   The app shows each step as it signs in and loads your timetable.
 3. **Choose the semester** to import. The one matching your semester's name is chosen for you.
+   Older semesters are loaded when you choose them.
 4. **Review.** Each subject shows its code, name, credit hours, section, lecturer and weekly classes,
    marked **New** or **Already here**. Untick anything you don't want.
 5. **Import.** The app adds what you ticked, then you can open your timetable.
@@ -61,8 +66,11 @@ also deletes every kept login.
 
 ## Your password
 
-- Your password is sent over an encrypted connection to the Stutastic Planner import service, only so
-  it can sign in to your university's portal for you. The service doesn't store or log it.
+- **IIUM:** the app signs in to i-Ma'luum directly from your device. Your password goes only to
+  IIUM's sign-in page, over an encrypted connection, and never to us.
+- **Other universities:** your password is sent over an encrypted connection to the Stutastic
+  Planner import service, only so it can sign in to your university's portal for you. The service
+  doesn't store or log it.
 - If you choose to stay signed in, the password is kept **only on your device**, in its secure storage
   (the Keychain on Apple devices, Keystore-protected storage on Android). It's never synced to your
   account or included in exports.

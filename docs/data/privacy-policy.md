@@ -57,10 +57,12 @@ Calendar yourself.
 
 Importing from your university is optional. When you use it:
 
-- The app sends your chosen university, student ID and portal password over an encrypted connection
-  to the Stutastic Planner import service. The service uses them only to sign in to your university's
-  portal and return your timetable to the app. It doesn't store your password, student ID or
-  timetable, and its logs are turned off.
+- **IIUM:** the app signs in to i-Ma'luum directly from your device. Your student ID and password go
+  only to IIUM's own sign-in page, over an encrypted connection, and are never sent to us.
+- **Other universities:** the app sends your chosen university, student ID and portal password over
+  an encrypted connection to the Stutastic Planner import service. The service uses them only to
+  sign in to your university's portal and return your timetable to the app. It doesn't store your
+  password, student ID or timetable, and its logs are turned off.
 - To prevent misuse, the service counts sign-in attempts per network address and per student ID for
   about an hour. These counts are kept under one-way (SHA-256) hashes, never the address or ID
   itself. Requests must also carry a Firebase App Check token showing they come from the app.
