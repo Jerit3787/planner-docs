@@ -1387,10 +1387,12 @@ semester's subjects and weekly classes, so you don't have to type them in.</p>
 <p>The app lists the universities it can import from, with the name of each one's portal. The list
 currently includes IIUM (i-Ma'luum), UiTM, IIC, APU, UniKL, UTM and UPSI. Universities are added as
 the import service gains support for them.</p>
+<p>IIUM's import is available in the app on your phone, tablet or computer, but not on the web.</p>
 <h2 id="import-a-semester">Import a semester<a class="headerlink" href="#import-a-semester" title="Permanent link">&para;</a></h2>
-<p>You can start an import from three places:</p>
+<p>You can start an import from four places:</p>
 <ul>
 <li><strong>Planner</strong> menu → <strong>Import from your university</strong>;</li>
+<li>the <strong>Subjects</strong> title bar → <strong>Import from your university</strong>;</li>
 <li>a semester's details → <strong>Import timetable</strong>;</li>
 <li>the <strong>Your timetable</strong> step of first-run setup.</li>
 </ul>
@@ -1398,8 +1400,10 @@ the import service gains support for them.</p>
 <ol>
 <li><strong>Choose your university.</strong> The app remembers your choice on this device.</li>
 <li><strong>Sign in</strong> with your student ID and portal password. Your student ID is remembered on this
-   device; your password is not, unless you choose to stay signed in (see below).</li>
-<li><strong>Choose the semester</strong> to import. The one matching your semester's name is chosen for you.</li>
+   device; your password is not, unless you choose to stay signed in (see below).
+   The app shows each step as it signs in and loads your timetable.</li>
+<li><strong>Choose the semester</strong> to import. The one matching your semester's name is chosen for you.
+   Older semesters are loaded when you choose them.</li>
 <li><strong>Review.</strong> Each subject shows its code, name, credit hours, section, lecturer and weekly classes,
    marked <strong>New</strong> or <strong>Already here</strong>. Untick anything you don't want.</li>
 <li><strong>Import.</strong> The app adds what you ticked, then you can open your timetable.</li>
@@ -1437,8 +1441,11 @@ timetable</strong> and choose <strong>Refresh now</strong> or <strong>Forget my 
 also deletes every kept login.</p>
 <h2 id="your-password">Your password<a class="headerlink" href="#your-password" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Your password is sent over an encrypted connection to the Stutastic Planner import service, only so
-  it can sign in to your university's portal for you. The service doesn't store or log it.</li>
+<li><strong>IIUM:</strong> the app signs in to i-Ma'luum directly from your device. Your password goes only to
+  IIUM's sign-in page, over an encrypted connection, and never to us.</li>
+<li><strong>Other universities:</strong> your password is sent over an encrypted connection to the Stutastic
+  Planner import service, only so it can sign in to your university's portal for you. The service
+  doesn't store or log it.</li>
 <li>If you choose to stay signed in, the password is kept <strong>only on your device</strong>, in its secure storage
   (the Keychain on Apple devices, Keystore-protected storage on Android). It's never synced to your
   account or included in exports.</li>
