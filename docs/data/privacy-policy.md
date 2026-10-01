@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: 26 September 2026**
+**Last updated: 1 October 2026**
 
 This Privacy Policy describes how Stutastic Planner, published by Danish Studio Production, handles
 information when you use the app. For privacy questions, contact
@@ -53,11 +53,36 @@ cleanup cannot be confirmed, account deletion stops so you can retry. Google may
 calendar in your Google Account if it cannot complete the removal; you can remove it from Google
 Calendar yourself.
 
+### University timetable import
+
+Importing from your university is optional. When you use it:
+
+- The app sends your chosen university, student ID and portal password over an encrypted connection
+  to the Stutastic Planner import service. The service uses them only to sign in to your university's
+  portal and return your timetable to the app. It doesn't store your password, student ID or
+  timetable, and its logs are turned off.
+- To prevent misuse, the service counts sign-in attempts per network address and per student ID for
+  about an hour. These counts are kept under one-way (SHA-256) hashes, never the address or ID
+  itself. Requests must also carry a Firebase App Check token showing they come from the app.
+- Your university's portal receives your student ID and password, as when you sign in to it
+  yourself. Its own privacy policy applies to that sign-in.
+- The app remembers your chosen university and student ID on your device so you don't retype them.
+  Your password is not kept unless you choose **Keep me signed in to refresh my timetable**.
+- If you choose to stay signed in, your password is kept only on your device, in the operating
+  system's secure storage. It's never synced to your account, sent to us for storage, or included in
+  exports. The record of which semester follows which portal also stays on your device and isn't
+  synced. Choose **Forget my login** at **Settings → University timetable** to delete it; signing out
+  or deleting your account also deletes it. This option isn't offered on the web.
+- The import service is free software under the GNU Affero General Public License. Its source code
+  is available at
+  [github.com/Jerit3787/planner-connect](https://github.com/Jerit3787/planner-connect).
+
 ## How information is used
 
 Information is used to provide the planner, authenticate accounts, sync planner records across your
-devices, maintain an optional Google Calendar connection, schedule local reminders, respond to
-support requests, and understand general app usage when Analytics is enabled.
+devices, import and refresh your university timetable when you ask, maintain an optional Google
+Calendar connection, schedule local reminders, respond to support requests, and understand general
+app usage when Analytics is enabled.
 
 Stutastic Planner does not include advertising and does not sell your personal information.
 
@@ -74,6 +99,8 @@ described in their own policies:
 - [Supabase privacy policy](https://supabase.com/privacy) — storage and services used for account
   data.
 - [Apple privacy policy](https://www.apple.com/legal/privacy/) — if you choose Apple sign-in.
+- [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) — hosting for the university
+  timetable import service.
 
 ## Retention and deletion
 

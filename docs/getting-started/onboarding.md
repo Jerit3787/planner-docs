@@ -4,7 +4,8 @@ The first-run setup helps you create a semester and get a timetable started. The
 
 1. **Your semester** — enter a semester name and date range. A programme name is optional.
 2. **Your subjects** — add the subjects you are taking. Credits are optional.
-3. **Your timetable** — add classes, paste a timetable, or finish setup and add classes later.
+3. **Your timetable** — import from your university, add classes, paste a timetable, or finish
+   setup and add classes later. See [Import from your university](../features/university-import.md).
 4. **Reminders** — on supported native devices, choose whether to enable device reminders. The web
    app does not offer reminders.
 5. **Your week is ready** — review the classes and subjects you added.

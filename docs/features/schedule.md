@@ -15,9 +15,11 @@ week, in Week A, or in Week B when you add or edit it.
 
 ## Import a timetable
 
-Choose **Import timetable** from the Planner menu to load a CSV timetable. During first-run setup,
-you can also paste timetable text. Review the imported rows and match them to subjects before
-continuing.
+- **From your university:** choose **Import from your university** from the Planner menu to bring in
+  a semester's subjects and classes from your student portal. See
+  [Import from your university](university-import.md).
+- **From text:** choose **Paste a timetable** from the Planner menu to load a CSV timetable. Review
+  the imported rows and match them to subjects before continuing.
 
 ## Export to a calendar
 

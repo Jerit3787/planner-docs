@@ -51,6 +51,7 @@ nav:
       - Overview: features/index.md
       - Dashboard: features/dashboard.md
       - Schedule: features/schedule.md
+      - Import from your university: features/university-import.md
       - Homework & Tasks: features/homework.md
       - Study Topics: features/study.md
       - Pomodoro Focus Sessions: features/pomodoro.md
