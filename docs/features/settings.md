@@ -8,8 +8,9 @@ page can appear beside the list.
 - **Appearance** — choose light, dark, or system appearance.
 - **Reminders** — enable or change on-device class and deadline reminders. Not available on the web.
 - **Google Calendar** — connect or disconnect the dedicated calendar Stutastic Planner manages.
-- **University timetable** — see which semesters are kept up to date with your university portal,
-  check now, or forget a kept login. Not available on the web. See
+- **Your university** — where you study and what the app does for it, importing your timetable,
+  changing university, and the semesters kept up to date with your portal (refresh now, or forget a
+  kept login). Keeping a login isn't available on the web. See
   [Import from your university](university-import.md).
 - **Class and exam lengths** — set default lengths and named exam start-time presets.
 - **Password & email** — manage account credentials where available.

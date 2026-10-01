@@ -73,7 +73,7 @@ Importing from your university is optional. When you use it:
 - If you choose to stay signed in, your password is kept only on your device, in the operating
   system's secure storage. It's never synced to your account, sent to us for storage, or included in
   exports. The record of which semester follows which portal also stays on your device and isn't
-  synced. Choose **Forget my login** at **Settings → University timetable** to delete it; signing out
+  synced. Choose **Forget my login** at **Settings → Your university** to delete it; signing out
   or deleting your account also deletes it. This option isn't offered on the web.
 - The import service is free software under the GNU Affero General Public License. Its source code
   is available at

@@ -15,10 +15,13 @@ IIUM's import is available in the app on your phone, tablet or computer, but not
 
 You can start an import from four places:
 
+- the **Bring in your timetable** step of first-run setup;
+- **Settings → Your university** → **Import timetable**;
 - **Planner** menu → **Import from your university**;
-- the **Subjects** title bar → **Import from your university**;
-- a semester's details → **Import timetable**;
-- the **Your timetable** step of first-run setup.
+- a semester's details → **Import timetable**.
+
+When the app knows your university (you chose it in setup or in **Settings → Your university**),
+the import starts at signing in. Otherwise it asks which university first, and remembers it.
 
 Then:
 
@@ -60,8 +63,8 @@ or dropped. This option isn't available on the web.
 - If your portal stops accepting the kept password (for example after you change it), the app
   deletes it and asks you to **Sign in again**.
 
-To see which semesters are kept up to date, check now, or stop, go to **Settings → University
-timetable** and choose **Refresh now** or **Forget my login**. Signing out or deleting your account
+To see which semesters are kept up to date, check now, or stop, go to **Settings → Your
+university** and choose **Refresh now** or **Forget my login**. Signing out or deleting your account
 also deletes every kept login.
 
 ## Your password
