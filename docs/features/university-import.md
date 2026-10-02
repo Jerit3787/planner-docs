@@ -34,10 +34,14 @@ Then:
 4. **Choose where each goes.**
     - **A new semester:** named from your portal, for example "Sem 1, 2026/2027". Enter its start
       and end dates, and choose its year or a new one named from the session, for example
-      "2025/2026".
+      "2025/2026". If your university publishes its academic calendar, the dates are filled in
+      for you, marked **From IIUM's calendar**, and the semester gets the calendar's periods.
+      Change the dates and it's saved as you typed it instead.
+      You'll see a warning if a new semester's dates overlap another semester's.
     - **A semester you already have:** one with the same name is chosen for you. If you started from
       a semester's details, the newest import goes there.
-    - **No programme yet:** if you haven't set one up, one is created for your university.
+    - **No programme yet:** if you haven't set one up, one is created for your university, with
+      its grading scale when the university publishes one.
 5. **Review.** Each semester has its own section. Each subject shows its code, name, credit hours,
    section, lecturer and weekly classes, marked **New** or **Already here**. Untick anything you
    don't want.

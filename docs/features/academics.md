@@ -39,6 +39,23 @@ The app always tries to default to whichever semester's date range actually **co
 than just the most recently created one — and flags on the semester picker if you've selected one that
 hasn't started yet, or has already finished.
 
+### From your university's calendar
+
+If your programme is at a university that publishes its academic calendar (IIUM does), the app
+can fill semesters in from it:
+
+- **A new semester:** **Fill from IIUM's calendar** lists the calendar's semesters you don't have
+  yet. Pick one and its name, dates and periods are filled in, and it's placed in your programme's
+  year for that session.
+- **A semester you already have:** its page shows **Use IIUM's calendar dates** with the
+  calendar's dates. Tap it to see a summary of the dates and periods, then **Use these dates**.
+  Close it if you'd rather keep your own; it won't ask again for that semester.
+- **When the university changes its calendar:** a semester filled from it shows
+  **IIUM updated Sem 1, 2026/2027**, on the dashboard and on the semester's page. Tap it to see
+  what changed and **Update**, or close it to keep your dates.
+
+Nothing changes until you accept. Your own edits to dates and periods stay yours.
+
 Opening a semester splits into two tabs — **Overview** (its GPA, where you are in the term, every
 period in the term, and a running "cumulative up to here" CGPA scoped to that semester's own programme)
 and **Classes** (every subject in it with its credits and grade). Editing a semester is split the same
@@ -54,6 +71,11 @@ grades, the app computes your semester GPA and running CGPA automatically.
     A GPA shown with a leading `~` (e.g. `~3.81`) means it's still a projection — one or more subjects
     in that calculation don't have a final grade yet. Once every subject in the semester is graded, the
     `~` drops and the figure is locked in.
+
+If your university publishes its grading scale (IIUM does), **Settings → Your university** shows
+**Use IIUM's grading scale** when yours differs, for example a D worth 1.00 instead of 1.67. Tap it
+to see which grades change and use the university's points. Your semesters keep the scale they use,
+now with the right points.
 
 If you're exempted from a subject requirement under a different programme (a transfer credit, for
 example), you can mark that directly from a subject's details — exempted subjects can be edited or

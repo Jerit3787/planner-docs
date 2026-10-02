@@ -9,6 +9,10 @@ The first-run setup helps you create a semester and get a timetable started. The
    [Import from your university](../features/university-import.md).
 3. **Your semester** — enter a semester name and date range. A programme name is optional. If you
    signed in, the name comes from your portal, and you can choose another of its semesters.
+   If your university publishes its academic calendar (IIUM does), pick the semester from it
+   instead: its dates and its periods — lectures, mid-semester break, revision, exams and the
+   vacation after — are filled in for you. The semester running today is chosen for you (the next
+   one during the vacation), and **Type my own** brings back the date fields.
 4. **Your subjects** — add the subjects you are taking. Credits are optional. Subjects from your
    portal are listed ticked; untick any you don't want.
 5. **Your timetable** — add classes, paste a timetable, or finish setup and add classes later.
