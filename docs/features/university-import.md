@@ -29,11 +29,21 @@ Then:
 2. **Sign in** with your student ID and portal password. Your student ID is remembered on this
    device; your password is not, unless you choose to stay signed in (see below).
    The app shows each step as it signs in and loads your timetable.
-3. **Choose the semester** to import. The one matching your semester's name is chosen for you.
-   Older semesters are loaded when you choose them.
-4. **Review.** Each subject shows its code, name, credit hours, section, lecturer and weekly classes,
-   marked **New** or **Already here**. Untick anything you don't want.
-5. **Import.** The app adds what you ticked, then you can open your timetable.
+3. **Choose the semesters** to import: tick one or more. The current semester is ticked for you, and
+   older semesters load when you tick them.
+4. **Choose where each goes.**
+    - **A new semester:** named from your portal, for example "Sem 1, 2026/2027". Enter its start
+      and end dates, and choose its year or a new one named from the session, for example
+      "2025/2026".
+    - **A semester you already have:** one with the same name is chosen for you. If you started from
+      a semester's details, the newest import goes there.
+    - **No programme yet:** if you haven't set one up, one is created for your university.
+5. **Review.** Each semester has its own section. Each subject shows its code, name, credit hours,
+   section, lecturer and weekly classes, marked **New** or **Already here**. Untick anything you
+   don't want.
+6. **Import.** The app adds what you ticked, oldest semester first, and the newest becomes the
+   semester you're looking at. If something stops part-way, what was already imported stays, and
+   trying again won't duplicate it.
 
 ### What an import changes
 
