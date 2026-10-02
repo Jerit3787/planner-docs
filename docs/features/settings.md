@@ -33,8 +33,8 @@ removal.
 
 ## Account and data
 
-The **Account** page offers **Create an account to sync**, **Leave without saving** or **Sign out**, and
-**Delete everything** or **Delete my account**, depending on your session. See
+The **Account** page offers **Create an account to sync** and **Leave without saving** to a guest,
+and **Sign out** and **Delete my account** to an account. Leaving or signing out clears the device. See
 [Guest mode vs. an account](../getting-started/guest-vs-account.md) before removing an account.
 
 In **Your data**, choose **Export everything** to save a JSON backup or **Restore from a backup** to
