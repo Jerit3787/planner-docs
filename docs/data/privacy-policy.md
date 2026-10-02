@@ -58,7 +58,8 @@ Calendar yourself.
 Importing from your university is optional. When you use it:
 
 - **IIUM:** the app signs in to i-Ma'luum directly from your device. Your student ID and password go
-  only to IIUM's own sign-in page, over an encrypted connection, and are never sent to us.
+  only to IIUM's own sign-in page, over an encrypted connection, and are never sent to us. Your
+  timetable and results are read on your device the same way.
 - **Other universities:** the app sends your chosen university, student ID and portal password over
   an encrypted connection to the Stutastic Planner import service. The service uses them only to
   sign in to your university's portal and return your timetable to the app. It doesn't store your

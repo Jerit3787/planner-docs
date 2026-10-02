@@ -56,6 +56,25 @@ Then:
 
 Importing the same semester again changes nothing.
 
+## Results
+
+For IIUM, each semester's results come with it, so your GPA and CGPA are right without typing your
+grades.
+
+- **Grades:** each subject's grade comes in with its credit hours. A pass (PA) becomes a
+  **Pass / Fail** subject.
+- **Grades you typed:** a grade you've already entered that differs from your portal's is shown as,
+  for example, "B+ here, A at i-Ma'luum". Yours is kept unless you tick it.
+- **Subjects with results but no classes,** such as a final-year project, are still added.
+- **The grading scale:** if your programme's scale gives a grade different points from your
+  portal's, for example "D: 1.00 here, 1.67 at i-Ma'luum", the review offers to fix it. That's ticked
+  for you.
+- **The CGPA check:** after importing, the app shows its CGPA next to your portal's. If they differ,
+  check repeated or exempted subjects.
+
+Semesters without results yet, such as the current one, import their timetable only. Results aren't
+refreshed automatically; import the semester again when new results are released.
+
 ## Keep your timetable up to date
 
 On the sign-in step, tick **Keep me signed in to refresh my timetable** if you'd like the app to
