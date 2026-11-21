@@ -35,5 +35,5 @@ navigation menu.
 
 ## Privacy and support
 
-Read the [Privacy Policy](data/privacy-policy.md), or contact
-[support@danplace.tech](mailto:support@danplace.tech) for help.
+Read the [Privacy Policy](data/privacy-policy.md), or use the
+[support tracker](https://support.danplace.tech/p/stu) for help.
