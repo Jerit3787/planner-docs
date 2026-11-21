@@ -1,10 +1,10 @@
 # Privacy Policy
 
-**Last updated: 1 October 2026**
+**Last updated: 21 November 2026**
 
 This Privacy Policy describes how Stutastic Planner, published by Danish Studio Production, handles
-information when you use the app. For privacy questions, contact
-[support@danplace.tech](mailto:support@danplace.tech).
+information when you use the app and its support tracker. For privacy questions or requests, use the
+[support tracker](https://support.danplace.tech/p/stu) and choose **Private** for anything personal.
 
 ## Information the app handles
 
@@ -17,8 +17,9 @@ topic, focus-session, and preference information that you enter.
   synced to an account.
 - When you use a **signed-in account**, planner records are stored locally and synced through
   PowerSync and Supabase so you can use them on your other signed-in devices.
-- If you email support, we receive the information you include in your message and any attachments.
-  Please do not send passwords, sign-in codes, or private academic records.
+- If you use the support tracker, we receive the information you submit there — see
+  [Support tracker](#support-tracker). Please do not upload passwords, sign-in codes, or private
+  academic records.
 
 ### Account information
 
@@ -80,6 +81,37 @@ Importing from your university is optional. When you use it:
   is available at
   [github.com/Jerit3787/planner-connect](https://github.com/Jerit3787/planner-connect).
 
+## Support tracker
+
+Bug reports, feature requests, votes, and replies are handled through the support tracker at
+[support.danplace.tech](https://support.danplace.tech/p/stu). You can browse and search public issues
+without an account. Reporters do not need to sign in.
+
+When you submit a report, you provide:
+
+- the app and area, a summary, what happened, optional steps to reproduce, expected and actual
+  results, and the environment (for example, device and browser);
+- how much it affects you, and optionally up to five attachments (images, video, PDF, text, or log
+  files, up to 15 MB each);
+- whether the report is **Public** (anyone can see, vote, and reply) or **Private** (only you and the
+  team can see it);
+- your name and email address.
+
+Your email address is never shown publicly. It is used to send you a private link to follow your
+report and to email you when its status changes. **Email me my links** at
+[support.danplace.tech/links](https://support.danplace.tech/links) sends a fresh private link for
+every report submitted from your address.
+
+The tracker stores reports, votes, replies, attachments, and the name and email you provide. Public
+reports and their attachments are visible to anyone; choose **Private** for account details, personal
+information, or anything you do not want public. Do not upload passwords, sign-in codes, or private
+academic records.
+
+The tracker is hosted by Vercel. Support reports are a separate record from your Stutastic Planner
+account: deleting the account does not automatically delete them. We keep them for as long as needed
+to investigate the issue and keep a record of it. To ask us to delete a report or your contact
+details, reply on the private link emailed to you or submit a Private report.
+
 ## How information is used
 
 Information is used to provide the planner, authenticate accounts, sync planner records across your
@@ -104,6 +136,7 @@ described in their own policies:
 - [Apple privacy policy](https://www.apple.com/legal/privacy/) — if you choose Apple sign-in.
 - [Cloudflare privacy policy](https://www.cloudflare.com/privacypolicy/) — hosting for the university
   timetable import service.
+- [Vercel privacy policy](https://vercel.com/legal/privacy-policy) — hosting for the support tracker.
 
 ## Retention and deletion
 
@@ -113,6 +146,11 @@ your Stutastic Planner account and synced planner records, choose **Delete my ac
 Account deletion also removes the server-side Google Calendar sync token and mapping. If the app
 cannot confirm that cleanup, it stops deletion so you can retry. The dedicated calendar is managed by
 Google and may remain in your Google Account if Google cannot complete its removal.
+
+Support reports, votes, replies, attachments, and the name and email you provide are kept for as long
+as needed to investigate the issue and keep a record of it. You can ask us to delete a report or your
+contact details using the private link emailed to you or by submitting a Private report. Deleting
+your Stutastic Planner account does not automatically delete support reports.
 
 Turning Analytics off stops future collection from that device. Information already collected by
 Firebase Analytics follows Google's retention settings. Service providers may retain copies in
@@ -125,8 +163,8 @@ planner records, not account credentials. Protect the file as you would any pers
 
 Stutastic Planner is intended for students generally and is not specifically directed to children
 under 13. The app does not ask you to enter your age or date of birth. If you have a question about a
-child's use of the app or their information, contact
-[support@danplace.tech](mailto:support@danplace.tech).
+child's use of the app or their information, submit a **Private** report at
+[support.danplace.tech/p/stu/report](https://support.danplace.tech/p/stu/report).
 
 ## Changes to this policy
 

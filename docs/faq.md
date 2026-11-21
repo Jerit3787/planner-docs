@@ -45,5 +45,7 @@ The app does not include advertising. Firebase usage analytics is on by default 
 for a device under **Settings → Privacy**. See the [Privacy Policy](data/privacy-policy.md).
 
 **How do I report a problem?**
-Email [support@danplace.tech](mailto:support@danplace.tech). Include the app version, device and OS,
-and the steps that caused the problem. Do not email passwords, sign-in codes, or private study records.
+Use the [support tracker](https://support.danplace.tech/p/stu). Search existing issues first, then
+choose **Report a bug**. Include the app version, device and OS, and the steps that caused the
+problem. Choose **Private** if the report contains account or personal information. Do not upload
+passwords, sign-in codes, or private study records. See [Support](support.md) for details.

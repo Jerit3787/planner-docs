@@ -45,5 +45,6 @@ data. Replace is destructive and asks for confirmation. See
 ## Privacy and version
 
 The **Privacy** page has a **Usage analytics** switch. It is stored per device and controls future
-Firebase Analytics collection on that device. The **About** page shows the app version and links to
-these docs; it does not contain an update history or an in-app update checker.
+Firebase Analytics collection on that device. The **About** page shows the app version, links to these
+docs, and opens the [support tracker](https://support.danplace.tech/p/stu) for bug reports and feature
+requests. It does not contain an update history or an in-app update checker.
