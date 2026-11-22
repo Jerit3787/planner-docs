@@ -1425,13 +1425,15 @@ the import starts at signing in. Otherwise it asks which university first, and r
 <li><strong>Choose your university.</strong> The app remembers your choice on this device.</li>
 <li><strong>Sign in</strong> with your student ID and portal password. Your student ID is remembered on this
    device; your password is not, unless you choose to stay signed in (see below).
-   The app shows each step as it signs in and loads your timetable.</li>
+   The app shows each step as it signs in and loads your timetable.
+   If you signed in recently, or chose to stay signed in, choose <strong>Continue as</strong> your student ID
+   instead, with no typing; <strong>Use a different account</strong> shows the fields.</li>
 <li><strong>Choose the semesters</strong> to import: tick one or more. The current semester is ticked for you, and
    older semesters load when you tick them.</li>
 <li><strong>Choose where each goes.</strong><ul>
 <li><strong>A new semester:</strong> named from your portal, for example "Sem 1, 2026/2027". Enter its start
-  and end dates, and choose its year or a new one named from the session, for example
-  "2025/2026". If your university publishes its academic calendar, the dates are filled in
+  and end dates. It goes into the year named for its session, for example "2025/2026", if you
+  have one, or else into a new year with that name; you can choose another. If your university publishes its academic calendar, the dates are filled in
   for you, marked <strong>From IIUM's calendar</strong>, and the semester gets the calendar's periods.
   Change the dates and it's saved as you typed it instead.
   You'll see a warning if a new semester's dates overlap another semester's.</li>
@@ -1463,7 +1465,10 @@ the import starts at signing in. Otherwise it asks which university first, and r
 grades.</p>
 <ul>
 <li><strong>Grades:</strong> each subject's grade comes in with its credit hours. A pass (PA) becomes a
-  <strong>Pass / Fail</strong> subject.</li>
+  <strong>Pass / Fail</strong> subject. So does a grade your portal gives no grade point, such as IIUM's
+  co-curricular courses: it doesn't count in your CGPA.</li>
+<li><strong>Pass / Fail subjects saved as graded</strong> are offered the change, for example "A here, pass/fail
+  at i-Ma'luum, so not in your CGPA".</li>
 <li><strong>Grades you typed:</strong> a grade you've already entered that differs from your portal's is shown as,
   for example, "B+ here, A at i-Ma'luum". Yours is kept unless you tick it.</li>
 <li><strong>Subjects with results but no classes,</strong> such as a final-year project, are still added.</li>
@@ -1480,8 +1485,16 @@ refreshed automatically; import the semester again when new results are released
 notice changes at your university, such as a class moved to another room or time, or a subject added
 or dropped. This option isn't available on the web.</p>
 <ul>
-<li>The app checks at most once a day, when you open it or come back to it, and only when you're
-  online.</li>
+<li>Only your portal's current semester is kept up to date. If you import only past semesters, your
+  password is still kept, so next time <strong>Continue as</strong> can link the current one.</li>
+<li>
+<p>Continuing while still signed in from earlier? Tick <strong>Keep me signed in</strong> there and enter your
+  password once.</p>
+</li>
+<li>
+<p>The app checks at most once a day, when you open it or come back to it, and only when you're
+  online.</p>
+</li>
 <li>If something changed, the Dashboard and Planner show <strong>Your timetable changed</strong>. Choose <strong>Review</strong>
   to see each change.<ul>
 <li>Changes are ticked to apply, except for classes <strong>you changed yourself</strong>, which are kept unless
