@@ -2,8 +2,11 @@
 
 The first-run setup helps you create a semester and get a timetable started. The setup screens are:
 
-1. **Where do you study?** — choose your university to see what the app can do for it, or choose
-   **My university isn't listed** to set up by hand.
+1. **Where do you study?** — your university is optional. In Malaysia, where the supported
+   universities are, setup shows the list first: choose yours to see what the app can do for it,
+   or choose **Skip: I'll set up by hand**. Anywhere else, setup opens with **Let's set up your
+   semester** and a **Start** button; **Is your university supported? See the list** shows the
+   list if you want it. You can choose a university later in **Settings → Your university**.
 2. **Bring in your timetable** — for a university whose timetable can be imported, sign in to its
    portal and your subjects and classes come with you. Choose **Not now** to skip. See
    [Import from your university](../features/university-import.md).
