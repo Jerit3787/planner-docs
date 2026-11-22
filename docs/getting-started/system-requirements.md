@@ -21,6 +21,10 @@ The native macOS app requires **macOS 12 or later**.
 Use the current supported release for your operating system. Requirements can vary by package; check
 the release notes that accompany the installer.
 
+Planner tells you when a newer version is ready. If you installed version 3.0.0 before
+23 November 2026, download and install the latest version once yourself; it won't be offered to you.
+After that, new versions are offered as usual.
+
 ## Web app
 
 Use a current version of Chrome, Safari, Firefox, or Edge with JavaScript and browser storage enabled.
