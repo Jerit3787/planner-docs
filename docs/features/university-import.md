@@ -29,12 +29,14 @@ Then:
 2. **Sign in** with your student ID and portal password. Your student ID is remembered on this
    device; your password is not, unless you choose to stay signed in (see below).
    The app shows each step as it signs in and loads your timetable.
+   If you signed in recently, or chose to stay signed in, choose **Continue as** your student ID
+   instead, with no typing; **Use a different account** shows the fields.
 3. **Choose the semesters** to import: tick one or more. The current semester is ticked for you, and
    older semesters load when you tick them.
 4. **Choose where each goes.**
     - **A new semester:** named from your portal, for example "Sem 1, 2026/2027". Enter its start
-      and end dates, and choose its year or a new one named from the session, for example
-      "2025/2026". If your university publishes its academic calendar, the dates are filled in
+      and end dates. It goes into the year named for its session, for example "2025/2026", if you
+      have one, or else into a new year with that name; you can choose another. If your university publishes its academic calendar, the dates are filled in
       for you, marked **From IIUM's calendar**, and the semester gets the calendar's periods.
       Change the dates and it's saved as you typed it instead.
       You'll see a warning if a new semester's dates overlap another semester's.
@@ -66,7 +68,10 @@ For IIUM, each semester's results come with it, so your GPA and CGPA are right w
 grades.
 
 - **Grades:** each subject's grade comes in with its credit hours. A pass (PA) becomes a
-  **Pass / Fail** subject.
+  **Pass / Fail** subject. So does a grade your portal gives no grade point, such as IIUM's
+  co-curricular courses: it doesn't count in your CGPA.
+- **Pass / Fail subjects saved as graded** are offered the change, for example "A here, pass/fail
+  at i-Ma'luum, so not in your CGPA".
 - **Grades you typed:** a grade you've already entered that differs from your portal's is shown as,
   for example, "B+ here, A at i-Ma'luum". Yours is kept unless you tick it.
 - **Subjects with results but no classes,** such as a final-year project, are still added.
@@ -84,6 +89,11 @@ refreshed automatically; import the semester again when new results are released
 On the sign-in step, tick **Keep me signed in to refresh my timetable** if you'd like the app to
 notice changes at your university, such as a class moved to another room or time, or a subject added
 or dropped. This option isn't available on the web.
+
+- Only your portal's current semester is kept up to date. If you import only past semesters, your
+  password is still kept, so next time **Continue as** can link the current one.
+- Continuing while still signed in from earlier? Tick **Keep me signed in** there and enter your
+  password once.
 
 - The app checks at most once a day, when you open it or come back to it, and only when you're
   online.
