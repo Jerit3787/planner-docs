@@ -36,6 +36,11 @@ See [Study Topics](study.md) and [Focus Sessions](pomodoro.md).
 Record quiz and exam dates and results, organise programmes and semesters, and follow grades and GPA.
 See [Quiz and Tests](quiz.md) and [Subjects and Academics](academics.md).
 
+## Attendance
+
+Mark the classes you miss and see, for each subject, how close you are to a warning or being barred
+from the final exam. See [Attendance](attendance.md).
+
 ## Reminders
 
 On supported native platforms, the app schedules reminders on your device. Web reminders are not

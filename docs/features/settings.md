@@ -13,6 +13,8 @@ page can appear beside the list.
   kept login). Keeping a login isn't available on the web. See
   [Import from your university](university-import.md).
 - **Class and exam lengths** — set default lengths and named exam start-time presets.
+- **Attendance** — track attendance or turn it off, count by hours or classes, and set the warning and
+  barring lines. See [Attendance](attendance.md).
 - **Password & email** — manage account credentials where available.
 - **Account** — create an account from guest mode, sign out, or delete your account.
 - **Your data** — export a backup or restore one.

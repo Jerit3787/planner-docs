@@ -57,6 +57,7 @@ nav:
       - Pomodoro Focus Sessions: features/pomodoro.md
       - Quiz & Tests: features/quiz.md
       - Subjects & Academics: features/academics.md
+      - Attendance: features/attendance.md
       - Calendar: features/calendar.md
       - Notifications: features/notifications.md
       - Settings: features/settings.md
