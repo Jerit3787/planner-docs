@@ -38,16 +38,33 @@ the stricter side, so the app never shows you safer than you are.
 A subject can set its own lines. Open the subject, choose **Edit**, and fill in **Warn at %** or
 **Barred at %** under **Attendance**. Leave a field empty to use your setting.
 
-## Where to mark a class
+## Where to find it
 
+- **The Attendance page**, under **School** in the sidebar (inside **Coursework** on a phone), lists
+  every subject of your current semester with its bar, the hours missed, and how many more classes you
+  can miss before the warning and before barring. Tap a subject to open its Attendance tab.
 - **A subject's Attendance tab** shows a bar, the hours missed ("3 h of 42 h missed (7.2%)"), both
   lines, and how many more classes you can miss before each. Below it, **Recent classes** lists every
   class held so far, newest first, each with its mark.
-- **A class's details** list its past classes, each with its mark.
-- **The Day view** shows each class's mark beside its time. You can mark a future class **Absent** or
-  **Excused** ahead of time, for a trip you already know about.
+- **A class's details** show one line, such as "3 h of 42 h missed". Tap it to open the subject's
+  Attendance tab.
 
-Tap a mark to change it, add a note, or clear it. A class you never marked shows as **Present**.
+## Marking a class
+
+Each class carries a small icon for its mark: on the Planner beside its time, on the subject's
+Attendance tab, and on the Attendance page.
+
+| Icon | Mark |
+|---|---|
+| Green tick | **Present** |
+| Clock | **Late** |
+| Red cross | **Absent** |
+| Badge | **Excused** |
+| Grey tick | Not marked, counted as present |
+| Empty circle | Still to come |
+
+Tap the icon to choose a mark, add a note, or clear it. You can mark a future class **Absent** or
+**Excused** ahead of time, for a trip you already know about.
 
 ## Settings
 
