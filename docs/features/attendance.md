@@ -76,10 +76,27 @@ Attendance tab.
 | Red cross | **Absent** |
 | Badge | **Excused** |
 | Grey tick | Not marked, counted as present |
+| Question mark | Not marked, under **Ask** or **Only what I mark** |
 | Empty circle | Still to come |
 
 Tap the icon to choose a mark, add a note, or clear it. You can mark a future class **Absent** or
 **Excused** ahead of time, for a trip you already know about.
+
+## Marking
+
+Choose how unmarked classes are treated in **Settings → Attendance → Marking**. The numbers are
+the same in every mode, because only **Absent** counts as missed.
+
+- **Assume present** (the default): a class you never mark counts as present, and nothing asks you.
+- **Ask**: after each class a notification asks how it went, with **Present**, **Absent** and
+  **Excused** buttons. A button opens the app and records the mark, with an **Undo**. Classes you
+  have not answered show as **Not marked**, and the Dashboard lists the last week's in a **Not
+  marked yet** card, where you can mark each one from its icon. These notifications do not need
+  class reminders turned on. The web app has no notifications, so there you mark from the card.
+- **Only what I mark**: unmarked classes stay **Not marked**, with no prompts. Each subject's
+  Attendance tab shows how much you have marked, such as "Marked 18 of 24 past hours".
+
+A class counts as past once it has ended.
 
 ## Settings
 
@@ -88,6 +105,7 @@ Go to **Settings → Attendance** to:
 - turn **Track attendance** off, which hides everything above;
 - choose whether to **count by** hours or classes;
 - set the **Warn at** and **Barred at** lines;
-- choose the **Alerts**: Quiet, Nudge or Before class.
+- choose the **Alerts**: Quiet, Nudge or Before class;
+- choose how you **mark**: Assume present, Ask or Only what I mark.
 
 Your marks sync to your other devices and are included in backups.

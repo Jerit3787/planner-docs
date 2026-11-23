@@ -14,7 +14,7 @@ page can appear beside the list.
   [Import from your university](university-import.md).
 - **Class and exam lengths** — set default lengths and named exam start-time presets.
 - **Attendance** — track attendance or turn it off, count by hours or classes, set the warning and
-  barring lines, and choose the alerts. See [Attendance](attendance.md).
+  barring lines, and choose the alerts and how you mark. See [Attendance](attendance.md).
 - **Password & email** — manage account credentials where available.
 - **Account** — create an account from guest mode, sign out, or delete your account.
 - **Your data** — export a backup or restore one.
