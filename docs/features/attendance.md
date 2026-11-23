@@ -40,19 +40,34 @@ A subject can set its own lines. Open the subject, choose **Edit**, and fill in 
 
 ## Where to find it
 
-- **The Attendance page**, under **School** in the sidebar (inside **Coursework** on a phone), lists
-  every subject of your current semester with its bar, the hours missed, and how many more classes you
-  can miss before the warning and before barring. Tap a subject to open its Attendance tab.
+- **The Dashboard** shows an **Attendance warnings** card when a subject you have missed classes in
+  is close to a line or past it, worst first: "Can miss 1 more before barring", "Next missed class
+  bars you", "Barred". Tap a subject to open its Attendance tab. With nothing close, there is no
+  card. You can move or hide it with **Customize dashboard**, like the other cards.
 - **A subject's Attendance tab** shows a bar, the hours missed ("3 h of 42 h missed (7.2%)"), both
   lines, and how many more classes you can miss before each. Below it, **Recent classes** lists every
   class held so far, newest first, each with its mark.
 - **A class's details** show one line, such as "3 h of 42 h missed". Tap it to open the subject's
   Attendance tab.
 
+## Alerts
+
+Choose how the app warns you in **Settings → Attendance → Alerts**:
+
+- **Quiet**: colours only, no messages.
+- **Nudge** (the default): when marking a class takes a subject past a line, a message says so
+  straight away, for example "Data Structures (CS201) reached the warning: 10% missed · can miss 3 more
+  classes before barring". You also get one when the next missed class would bar you.
+- **Before class**: the same, plus a line on the class reminder when missing that class would take
+  you past a line, such as "Missing it would reach the warning line (10%)". This needs class
+  reminders turned on in **Settings → Reminders**; the Attendance settings say so if they are off.
+
+Nothing appears until you have missed at least one class.
+
 ## Marking a class
 
-Each class carries a small icon for its mark: on the Planner beside its time, on the subject's
-Attendance tab, and on the Attendance page.
+Each class carries a small icon for its mark: on the Planner beside its time, and on the subject's
+Attendance tab.
 
 | Icon | Mark |
 |---|---|
@@ -72,6 +87,7 @@ Go to **Settings → Attendance** to:
 
 - turn **Track attendance** off, which hides everything above;
 - choose whether to **count by** hours or classes;
-- set the **Warn at** and **Barred at** lines.
+- set the **Warn at** and **Barred at** lines;
+- choose the **Alerts**: Quiet, Nudge or Before class.
 
 Your marks sync to your other devices and are included in backups.
