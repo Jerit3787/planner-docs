@@ -8,8 +8,13 @@ Your active semester's teaching periods and date range help put classes and even
 
 ## Events and holidays
 
-Add an event from the Planner calendar. Events can span more than one day. Add holidays and other
-no-class periods in Academics so the calendar and timetable reflect breaks in your semester.
+Tap **+** at the top of the Planner, Dashboard or Agenda and choose **Add event** or **Add holiday**.
+From the Planner, the new entry starts on the day you're looking at; elsewhere it starts today. Both
+can span more than one day.
+
+A holiday cancels the classes on its days, such as a public holiday. For longer breaks in the
+semester, like a mid-semester break or exam weeks, add a period in Academics instead, so the
+calendar and timetable show it.
 
 ## Google Calendar
 
