@@ -1,33 +1,53 @@
-# Export and Import
+# Export and import
 
-Open **Settings → Your data** to export a backup or restore one.
+A backup is a single file with all your planner data: semesters, subjects, classes, tasks, tests,
+topics, attendance and focus history. Make one before you change devices, clear the app's data, or
+replace what you have. Guest data has no other copy.
 
 ## Export everything
 
-Choose **Export everything** to save a dated JSON backup containing the planner records for the
-current session. This works offline and in guest mode. Account credentials and passwords are not part
-of the backup. Keep the file somewhere safe: it contains your personal study information.
+1. Open **Settings → Your data**.
+2. Choose **Export everything** and save the file somewhere safe.
 
-Export a backup before clearing app or browser data, changing devices, or using Replace during a
-restore. Guest data has no cloud copy until you create an account.
+The backup is a dated JSON file. It works offline and in guest mode. It never contains your
+password or any kept university login, but it does contain your study records, so keep it private.
 
 ## Restore from a backup
 
-Choose **Restore from a backup**, select a backup file from Stutastic Planner or the earlier web app,
-then choose how to apply it:
+1. Open **Settings → Your data** and choose **Restore from a backup**.
+2. Pick the file. Backups from this app and from the old web app both work.
+3. Choose how to apply it:
+    - **Merge** keeps what you have and adds or updates what's in the file.
+    - **Replace** deletes your current planner data first, then restores the file. It asks you to
+      confirm, because it can't be undone.
 
-- **Merge** keeps existing records and adds or updates records from the backup.
-- **Replace** deletes the current planner data first, then restores the file. The app
-  asks you to confirm because this cannot be undone.
+Restoring brings back your planner data, not your sign-in. Sign in separately if you want it synced.
 
-Restoring a backup does not restore account credentials. Sign in separately if you want to sync.
+## Restore on a new device
 
-## Move guest data to another device
+On a fresh install you can restore before setting anything up:
 
-Export a backup on the original device, move the file securely, then restore it on the new device.
-Alternatively, create an account from **Settings → Account** to sync your existing planner data.
+1. On the welcome screen, choose **Restore a backup**.
+2. Choose **Choose a backup file** and pick it. On iPhone and iPad, it can be in Files, iCloud Drive
+   or **On My iPhone**.
+3. The app says how many records will be added; choose **Restore**.
+
+Setup is then skipped and you land on your Dashboard as a guest, with everything from the backup.
+Create an account afterwards from **Settings → Account** if you want it synced.
+
+![Restore a backup: Bring your planner with you, with Choose a backup file](../img/phone-restore-backup.png){ width="260" }
+
+**Set up without a backup** goes back to the normal [setup](../getting-started/onboarding.md).
+
+## Move to another device
+
+- **With an account:** sign in on the new device. Everything comes down from your account.
+- **As a guest:** export a backup, move the file to the new device (by AirDrop, email to yourself or
+  a cloud drive), and restore it there. Or create an account on the old device first, then sign in
+  on the new one.
 
 ## Import a timetable
 
-To import class rows from a CSV timetable, open **Planner** and choose **Import timetable** from its
-menu. This is separate from restoring a full planner backup.
+To add classes rather than a whole planner, use the Planner's menu:
+[Import from your university](../features/university-import.md) or
+[Paste a timetable](../features/schedule.md#paste-a-timetable).

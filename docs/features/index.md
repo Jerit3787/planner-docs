@@ -24,7 +24,7 @@ subject, so the app can show them together and work out your grades.
 | | iPhone and iPad | Android | Mac | Windows and Linux | Web |
 |---|---|---|---|---|---|
 | Works offline | Yes | Yes | Yes | Yes | Yes, once loaded |
-| Reminders | Yes | Yes | Yes | While Planner is running | No |
+| Reminders | Yes | Yes | Yes | Yes (Linux: while Planner is running) | No |
 | Focus timer outside the app | Lock Screen and Dynamic Island | Notification | — | — | — |
 | Keep a university login for timetable refresh | Yes | Yes | Yes | Yes | No |
 | IIUM timetable import | Yes | Yes | Yes | Yes | No |

@@ -13,9 +13,14 @@ Create an account from **Settings → Account** to sync your current planner dat
 restore it on the other device. See [Export and Import](data/export-import.md).
 
 **Why are reminders unavailable in the web app?**
-The web app does not schedule reminders. Use a supported native app, enable **Settings → Reminders**,
-and allow notifications in your device settings. Reminders are stored on that device and do not need
+The web app does not schedule reminders. Use one of the apps, turn on **Settings → Reminders**, and
+allow notifications in your device settings. Reminders are stored on that device and do not need
 an account. See [Reminders](features/notifications.md).
+
+**My reminders stopped.**
+Reminders are scheduled two weeks ahead; open the app to schedule the next two weeks. Check that
+notifications are still allowed for Stutastic Planner in your device's settings. On Linux, Planner
+must be running.
 
 **How do I connect Google Calendar?**
 Sign in to Stutastic Planner, then open **Settings → Google Calendar** and choose **Connect Google
@@ -28,8 +33,33 @@ without disconnecting first; account deletion attempts to remove the Calendar co
 automatically. If that cleanup cannot be confirmed, deletion stops so you can retry.
 
 **Can I import a timetable?**
-Yes. Choose **Import timetable** from the Planner menu to load a CSV timetable. You can also paste
-timetable text during first-run setup.
+Yes, two ways, both from the **⋯** menu on the Planner. **Import from your university** signs in to a
+supported student portal and brings in your subjects and classes. **Paste a timetable** takes one
+class per line. See [Bring in a timetable](features/schedule.md#bring-in-a-timetable).
+
+**A class is cancelled this week. Do I delete it?**
+No. Open the class and choose **Cancel a date**: only that date goes, and the rest of the term stays.
+**Reschedule a date** moves one date instead. For a public holiday that cancels every class, add a
+[holiday](features/calendar.md#holidays).
+
+**My class alternates weeks. How do I add it?**
+Set the semester's Week A anchor date, then set the class to repeat **Every 2 weeks** in Week A or
+Week B. See [Alternating weeks](features/schedule.md#alternating-weeks).
+
+**Why does my GPA have a "~" in front?**
+Some subjects in it don't have a final grade yet, so it's an estimate. See
+[Grading scales and GPA](features/academics.md#grading-scales-and-gpa).
+
+**How many more classes can I miss?**
+Open the subject's **Attendance** tab, or check the Dashboard's **Attendance warnings** card. See
+[Attendance](features/attendance.md).
+
+**Can I see the focus timer on my Lock Screen?**
+On iPhone, yes: a running session shows on the Lock Screen and in the Dynamic Island. On Android it
+shows as a notification. See [Focus sessions](features/pomodoro.md#while-it-runs).
+
+**Are there keyboard shortcuts?**
+Yes, on any device with a keyboard. See [Getting around](getting-started/navigation.md#keyboard-shortcuts).
 
 **Can I create a backup?**
 Yes. In **Settings → Your data**, choose **Export everything** to save a JSON backup. See

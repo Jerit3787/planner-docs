@@ -44,22 +44,23 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-      - Guest mode vs. an account: getting-started/guest-vs-account.md
       - First-run setup: getting-started/onboarding.md
+      - Getting around: getting-started/navigation.md
+      - Guest mode vs. an account: getting-started/guest-vs-account.md
       - System requirements: getting-started/system-requirements.md
   - Features:
       - Overview: features/index.md
       - Dashboard: features/dashboard.md
-      - Schedule: features/schedule.md
+      - Planner: features/schedule.md
+      - Agenda, events and holidays: features/calendar.md
       - Import from your university: features/university-import.md
-      - Homework & Tasks: features/homework.md
-      - Study Topics: features/study.md
-      - Pomodoro Focus Sessions: features/pomodoro.md
-      - Quiz & Tests: features/quiz.md
-      - Subjects & Academics: features/academics.md
+      - Tasks: features/homework.md
+      - Study topics: features/study.md
+      - Quizzes and exams: features/quiz.md
+      - Subjects and academics: features/academics.md
       - Attendance: features/attendance.md
-      - Calendar: features/calendar.md
-      - Notifications: features/notifications.md
+      - Focus sessions: features/pomodoro.md
+      - Reminders: features/notifications.md
       - Settings: features/settings.md
   - Offline & Sync: offline-and-sync.md
   - Your Data:

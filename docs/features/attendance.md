@@ -4,6 +4,9 @@ Many universities stop students from sitting a course's final exam when they mis
 **Attendance** keeps a record of each class you miss and shows, for every subject, how close you are
 to a warning or to being barred.
 
+![A subject's Attendance tab: 5 h of 40 h missed, the warning reached, and the recent classes with their marks](../img/phone-subject-attendance.png){ width="260" }
+![The Dashboard's Attendance warnings card: Can miss 1 more before barring](../img/phone-dashboard.png){ width="260" }
+
 ## How it counts
 
 Only classes you mark **Absent** count as missed.
@@ -82,6 +85,8 @@ Attendance tab.
 Tap the icon to choose a mark, add a note, or clear it. You can mark a future class **Absent** or
 **Excused** ahead of time, for a trip you already know about.
 
+![Tapping a class's icon in the Planner offers Present, Late, Absent, Excused and Add note](../img/phone-attendance-menu.png){ width="260" }
+
 ## Marking
 
 Choose how unmarked classes are treated in **Settings → Attendance → Marking**. The numbers are
@@ -99,6 +104,8 @@ the same in every mode, because only **Absent** counts as missed.
 A class counts as past once it has ended.
 
 ## Settings
+
+![Settings → Attendance: Track attendance, Count by, Warn at, Barred at, Alerts and Marking](../img/phone-settings-attendance.png){ width="260" }
 
 Go to **Settings → Attendance** to:
 
