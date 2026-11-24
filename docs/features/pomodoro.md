@@ -31,7 +31,7 @@ timer.
 
 ![The running timer as a bar above the tabs](../img/phone-focus-running.png){ width="200" }
 ![The full timer: the countdown, one dot per session, and what you're focusing on](../img/phone-focus-timer.png){ width="200" }
-![On the Lock Screen: Focus 1 of 4 with the subject and a countdown](../img/phone-focus-lockscreen.jpg){ width="200" }
+![On the Lock Screen: Focus 2 of 3, the item, a countdown, and the whole session as a bar of blocks](../img/phone-focus-lockscreen.jpg){ width="200" }
 
 The full timer has three buttons:
 
@@ -48,9 +48,13 @@ The arrow at the top shrinks the full timer back to the bar.
 
 **Outside the app:**
 
-- **iPhone:** the timer stays on the Lock Screen and in the Dynamic Island, with the phase, the
-  subject and the time left.
-- **Android:** an ongoing notification shows the same.
+- **iPhone:** the timer stays on the Lock Screen and in the Dynamic Island. The Lock Screen shows
+  the phase, what you're working on and the time left, with the whole session as a bar underneath:
+  blocks you've finished are solid, the one you're in fills up as you go, and breaks are green. It
+  also says when this block and the whole session end. The card turns green on a break and grey
+  while paused.
+- **Android:** an ongoing notification shows the phase, the time left and a bar for the whole
+  session. On Android 16 and later the bar is split into your focus blocks and breaks.
 
 The timer keeps time even if the app is closed: come back and it's where it should be.
 
