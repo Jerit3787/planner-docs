@@ -1,26 +1,40 @@
-# Study Topics
+# Study topics
 
-Break a subject down into individual topics/chapters and track your revision progress on each one —
-separately from the assignment-style tracking in [Homework & Tasks](homework.md).
+Study topics break a subject into the chapters or topics you need to revise, so you can see how ready
+you are for each test. Tasks are for work you hand in; topics are for what you need to know.
 
-## Progress
+![Study: topics grouped by subject, each with its progress and the tests it's for](../img/phone-study.png){ width="260" }
 
-Each topic has a progress percentage you update as you revise it. A topic can also carry its own due
-date (for example, "revise by the night before the test") independent of any linked test's date.
+## Add a topic
 
-## Linking to a test
+1. Open **Study** (under **Coursework** on a phone) and tap **+**, or press ⌥⌘S (Ctrl+Alt+S).
+2. Enter the **Topic** and choose the **Subject**.
+3. **Topic number** keeps topics in the order you'll study them, such as the lecture or chapter
+   number.
+4. **Revise by** is an optional date of your own, such as the night before the test.
+5. Set **Progress** if you've already started, then **Save**.
 
-Linking a study topic to a [quiz/test](quiz.md) is what powers **focus suggestions** in analytics —
-topics under 100% progress with a linked test coming up soon are surfaced first, so you always have a
-concrete answer to "what should I revise next" instead of having to work it out yourself.
+## The list
 
-!!! tip "A task can double as a study topic too"
-    You're not limited to dedicated study topics for what a quiz tests you on — a
-    [homework/task item](homework.md) can also be linked as something a quiz draws on (a specific lab
-    or tutorial, say), and it'll show up alongside your topic links wherever a quiz shows what it's
-    testing.
+Topics are grouped by subject. Each row shows its topic number, a progress bar, and a chip for every
+test it's linked to, such as **Midterm test** or **Final Exam**. Finished topics are struck through
+with a green tick.
 
-## Sorting
+Open a topic and drag its progress as you revise. At 100% it's done.
 
-Sort your topic list by topic number (the order you'll actually study them in) or by due date (what's
-most urgent) — whichever is more useful for how you plan.
+## Link topics to tests
+
+When you add or edit a [quiz, test or final exam](quiz.md), tick the subject's topics under
+**Topics covered**. Then:
+
+- the topic shows that test's chip in the Study list;
+- the test shows its topics and an overall progress, so you can see how ready you are;
+- the Dashboard's **Focus suggestions** puts the topics for your nearest tests that are furthest from
+  done at the top.
+
+![A final exam's details: its related topics, each with progress, and Overall 50%](../img/phone-final-exam-detail.png){ width="260" }
+
+## Revise with focus sessions
+
+Start a [focus session](pomodoro.md) on a topic, from the timer button at the top of **Study** or the
+topic's own details. The time counts toward the subject in your focus summaries.

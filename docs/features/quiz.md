@@ -1,47 +1,53 @@
-# Quiz & Tests
+# Quizzes and exams
 
-Track quizzes, tests, and Final Exams — with scores, status, and an optional linked focus/revision
-trail.
+Keep every quiz, test and final exam in one list, with its date, its seat, the topics it covers and,
+afterwards, your score.
 
-## Regular quizzes/tests
+![Quizzes: scored quizzes with a green tick, upcoming tests, and final exams with their seats](../img/phone-quizzes.png){ width="260" }
+![A final exam's details: date, time, seat, notes and the related topics](../img/phone-final-exam-detail.png){ width="260" }
 
-Set a date and (optionally) a time, a topic link, and a status.
+## Add a quiz or test
 
-!!! tip "You don't need to close it out yourself"
-    Once the scheduled time passes, an unfinished quiz automatically flips to **Completed** — there's
-    no separate button to click. Add a score once it's graded (any time before or after that automatic
-    flip), and it appears in analytics.
+1. Open **Quizzes** (under **Coursework** on a phone) and tap **+**, or press ⌥⌘Q (Ctrl+Alt+Q).
+2. Leave **Quiz or test** selected. Enter a **Title**, such as "Quiz 3: Trees", and choose the
+   **Subject**.
+3. Set the **Date**, and a start and end time if you know them. Pick a start time and the end is
+   filled in from your default class length.
+4. Under **Topics covered**, tick the [study topics](study.md) it tests. Only the subject's own
+   topics are listed.
+5. Choose **Save**.
 
-## Final Exams
+Once it's graded, open it, choose **Edit**, and enter the **Score** and what it's **Out of**. Scores
+feed the Dashboard's **Test score trend** and, if you give the subject
+[marks categories](academics.md#marks-and-grades), its grade.
 
-Toggle **Final Exam** on the same form to switch it into exam mode. This adds:
+!!! tip "No need to close it yourself"
+    Once a quiz's date has passed, it shows as completed, with or without a score. Add the score
+    whenever it comes back.
 
-- A **seat/table number** field.
-- Quick-pick buttons for the exam's start time, one per **exam session** you've defined in
-  [Settings → Class and exam lengths](settings.md#available-settings) — final exam schedules are
-  often published in session blocks rather than exact times, so picking a preset fills in its start
-  time for you.
+## Add a final exam
 
-A Final Exam is otherwise the same underlying record as a regular quiz — topic links, focus sessions,
-and score all carry over, and it appears in Planner and the upcoming-work summary.
+Choose **Final Exam** at the top of the form. It adds:
 
-!!! note "End time defaults"
-    If you leave the end time blank, it fills in from the start time plus your **default examination
-    length** (Settings) for a Final Exam, or your **default class duration** for a regular quiz/test —
-    two separate settings, since exams usually run much longer than a class.
+- **Seat or table number**, shown in the list and the details, so you know where to go on the day;
+- a default end time from your **default exam length**, which you set in
+  [Settings → Class and exam lengths](settings.md#class-and-exam-lengths).
 
-## Pomodoro focus sessions
+A final exam's score isn't typed in. It's worked back from the subject's final grade once you set
+it under [Subjects](academics.md#marks-and-grades).
 
-Log a [focus session](pomodoro.md) against a quiz to build up a time-by-subject breakdown in
-analytics. If you have an active session running when
-one of today's classes or quizzes is about to start, it automatically pauses itself instead of
-silently running through it.
+Add a **Notes** line for anything you'll need on the day, such as "Bring your student card".
 
-## Timezones and studying abroad
+## Before the test
 
-!!! info "Only relevant if your programme is based somewhere else"
-    If your programme has a [timezone override](academics.md#programmes) set (for example, a degree
-    based in a different country than where you're physically studying), a quiz/exam's date and time
-    are entered in that programme's timezone. Whatever device you actually view it from converts and
-    displays it correctly for wherever you currently are — the same way a scheduled class or task due
-    time behaves. Most users never need to touch this.
+Open a test to see its **Related topics**, each with its progress, and an **Overall** figure for how
+ready you are. **Focus with Pomodoro** starts a [focus session](pomodoro.md) on it.
+
+The nearest tests also drive the Dashboard's **Focus suggestions**, which list the linked topics
+you're least ready for first.
+
+## Time zones
+
+If your programme has its own time zone (see
+[Programmes](academics.md#programmes)), a test's date and time are entered in that time zone and shown
+in the time zone you're in. Most people never need this.
