@@ -1,52 +1,34 @@
 # Features
 
-Stutastic Planner includes a timetable and calendar, tasks, study topics, quizzes and exams,
-academic records, analytics, and focus sessions. The Flutter app is available on iOS/iPadOS, Android,
-macOS, Windows, Linux, and the web. The experience adapts to the device, so some controls and system
-features vary by platform.
+Everything in Stutastic Planner hangs off your **semester**: its dates and periods, the subjects you
+take in it, and their classes. Tasks, tests, study topics, attendance and focus time all belong to a
+subject, so the app can show them together and work out your grades.
 
-| Capability | Availability |
-|---|---|
-| Planner, subjects, tasks, quizzes, study topics, academics, and focus sessions | Supported app platforms |
-| Offline use | Planner data is saved locally first. Account sync needs an internet connection. |
-| Guest use | Available; guest planner data stays on that device until you export it or create an account. |
-| Scheduled reminders | Native apps only; reminders are stored on the device and require notification permission. |
-| Google Calendar | Optional; requires a signed-in account and Google authorization. |
-| Apple sign-in | Available on Apple platforms. Google and email sign-in are also available where supported. |
-| Backup and restore | Export a JSON backup and restore it on a supported platform. |
+| Feature | What it does | Page |
+|---|---|---|
+| Dashboard | Today's classes, what's due, attendance warnings, GPA, focus time and trends | [Dashboard](dashboard.md) |
+| Planner | Your timetable and calendar by day, week or month; add, cancel or move classes | [Planner](schedule.md) |
+| Agenda, events and holidays | Everything due in one list; one-off events; days with no classes | [Agenda, events and holidays](calendar.md) |
+| University import | Bring subjects, classes and results in from your student portal | [Import from your university](university-import.md) |
+| Tasks | Assignments with a due date and progress | [Tasks](homework.md) |
+| Study topics | Revision progress per topic, linked to the tests they're for | [Study topics](study.md) |
+| Quizzes and exams | Test dates, seats, scores and the topics they cover | [Quizzes and exams](quiz.md) |
+| Subjects and academics | Programmes, semesters, periods, marks, grades, GPA and CGPA | [Subjects and academics](academics.md) |
+| Attendance | The classes you miss, and how close you are to being barred | [Attendance](attendance.md) |
+| Focus sessions | A Pomodoro timer that logs time against your work | [Focus sessions](pomodoro.md) |
+| Reminders | Notifications before class and about what's due | [Reminders](notifications.md) |
+| Settings | Appearance, Google Calendar, account, backups and more | [Settings](settings.md) |
 
-## Planner
+## What differs by platform
 
-**Classes and events in one place.** View a semester by day, week, or month. Import a CSV timetable,
-or export classes to an `.ics` calendar file.
+| | iPhone and iPad | Android | Mac | Windows and Linux | Web |
+|---|---|---|---|---|---|
+| Works offline | Yes | Yes | Yes | Yes | Yes, once loaded |
+| Reminders | Yes | Yes | Yes | While Planner is running | No |
+| Focus timer outside the app | Lock Screen and Dynamic Island | Notification | — | — | — |
+| Keep a university login for timetable refresh | Yes | Yes | Yes | Yes | No |
+| IIUM timetable import | Yes | Yes | Yes | Yes | No |
+| Menu bar and keyboard shortcuts | Shortcuts with a keyboard | Shortcuts with a keyboard | Menu bar and shortcuts | Shortcuts | Shortcuts |
+| Sign in with Apple | Yes | — | Yes | — | — |
 
-[Read more →](schedule.md)
-
-## Homework and tasks
-
-Track due dates, optional due times, and progress. See [Homework and Tasks](homework.md).
-
-## Study topics and focus
-
-Track revision progress, link topics to tests, and record focused study time with the Pomodoro timer.
-See [Study Topics](study.md) and [Focus Sessions](pomodoro.md).
-
-## Quizzes, exams, and academics
-
-Record quiz and exam dates and results, organise programmes and semesters, and follow grades and GPA.
-See [Quiz and Tests](quiz.md) and [Subjects and Academics](academics.md).
-
-## Attendance
-
-Mark the classes you miss and see, for each subject, how close you are to a warning or being barred
-from the final exam. See [Attendance](attendance.md).
-
-## Reminders
-
-On supported native platforms, the app schedules reminders on your device. Web reminders are not
-available. See [Reminders](notifications.md).
-
-## Settings and data
-
-Manage appearance, reminders, Google Calendar, account access, privacy preferences, and backups in
-Settings. See [Settings](settings.md) and [Export and Import](../data/export-import.md).
+Everything else, including Google Calendar, backups and sync, works the same on every platform.

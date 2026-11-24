@@ -1,39 +1,47 @@
 # Stutastic Planner
 
-**Stutastic Planner** helps you organise classes, coursework, exams, and study time. It is an
-offline-first app: your work is saved on your device, and signed-in accounts can sync it across
-devices when you're online.
+**Stutastic Planner** keeps your semester in one place: your timetable, assignments, tests, revision,
+grades, attendance and focus time. It works offline, on your device first. Sign in if you want it
+synced across your phone, tablet, computer and the web.
 
-The app is available for iPhone and iPad, as well as other supported mobile, desktop, and web
-platforms. The screens and a few capabilities vary by platform; see
+![The Dashboard on iPhone, with the semester GPA, attendance warnings, today's classes and what's due](img/phone-dashboard.png){ width="260" }
+![The Planner's week view on iPhone](img/phone-planner-week.png){ width="260" }
+
+![The Dashboard on iPad in landscape, with the labelled sidebar](img/ipad-dashboard-wide.png)
+
+## New here?
+
+1. **[Set up your semester](getting-started/onboarding.md).** A few short steps: your university,
+   your semester's dates, your subjects and your classes. If your university is supported, your
+   timetable can come straight from its student portal.
+2. **[Learn your way around](getting-started/navigation.md).** Where everything is on a phone, a
+   tablet and a computer, plus keyboard shortcuts.
+3. **Decide about an account.** You don't need one. See
+   [Guest mode vs. an account](getting-started/guest-vs-account.md).
+
+## Common tasks
+
+| I want to… | Go to |
+|---|---|
+| Add a class, or cancel or move one date of it | [Planner](features/schedule.md) |
+| Bring my timetable in from my university | [Import from your university](features/university-import.md) |
+| Track an assignment and how far along it is | [Tasks](features/homework.md) |
+| Plan revision for a test | [Study topics](features/study.md) and [Quizzes and exams](features/quiz.md) |
+| Record marks and see my GPA | [Subjects and academics](features/academics.md) |
+| Know how many more classes I can miss | [Attendance](features/attendance.md) |
+| Study in focused blocks | [Focus sessions](features/pomodoro.md) |
+| Get reminded before class and about deadlines | [Reminders](features/notifications.md) |
+| Mark a public holiday or add an event | [Agenda, events and holidays](features/calendar.md) |
+| Keep a copy of everything, or move to a new device | [Export and import](data/export-import.md) |
+
+## Where it runs
+
+iPhone and iPad, Android, Mac, Windows, Linux and the web. Most screens are the same everywhere;
+reminders, the Lock Screen timer and the tray differ by platform. See
 [System requirements](getting-started/system-requirements.md) and the
-[platform overview](features/index.md).
+[feature overview](features/index.md).
 
-## What you can do
+## Help
 
-- **[Planner](features/schedule.md)** — view your timetable by day, week, or month; import a CSV
-  timetable or export classes to a calendar file.
-- **[Homework and tasks](features/homework.md)** — track deadlines and progress.
-- **[Study topics](features/study.md)** — organise revision and connect topics to tests.
-- **[Quizzes and exams](features/quiz.md)** — record test dates, results, and exam details.
-- **[Subjects and academics](features/academics.md)** — organise programmes and semesters and track
-  grades and GPA.
-- **[Focus sessions](features/pomodoro.md)** — run a Pomodoro timer and log study time.
-- **[Reminders](features/notifications.md)** — schedule class and deadline reminders on supported
-  native devices.
-- **[Overview and analytics](features/dashboard.md)** — see study and semester summaries.
-
-## Start here
-
-You can set up a semester and use the app without creating an account. Choose
-**Not now, keep it on this device** at the account step to continue as a guest. Guest planner data
-stays on that device. Sign in if you want your planner data to sync across devices. Read
-[Guest mode vs. an account](getting-started/guest-vs-account.md) for details.
-
-See the [first-run setup guide](getting-started/onboarding.md) or go straight to a feature from the
-navigation menu.
-
-## Privacy and support
-
-Read the [Privacy Policy](data/privacy-policy.md), or use the
-[support tracker](https://support.danplace.tech/p/stu) for help.
+Check the [FAQ](faq.md), or [contact support](support.md). Read the
+[Privacy Policy](data/privacy-policy.md) for what the app collects.
