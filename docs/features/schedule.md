@@ -30,3 +30,9 @@ You can open or import this file with calendar apps that support the iCalendar f
 
 Classes use the time zone set for their programme. If the programme has no override, the device's
 time zone is used. When you travel, times are displayed for the current device time zone.
+
+A class from another time zone can land on a different day for you. A Monday morning class in
+Kuala Lumpur, for example, happens on Sunday evening in New York. Holidays, term dates and
+teaching weeks still follow the university's own calendar, so that class is off when the
+university's Monday is a holiday, whatever the date where you are. Cancelling or moving one
+class uses the day it shows on in your Planner.
