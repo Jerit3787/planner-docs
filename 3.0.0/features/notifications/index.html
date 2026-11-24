@@ -13,7 +13,7 @@
         <link rel="canonical" href="https://docs.planner.danplace.tech/3.0.0/features/notifications/">
       
       
-        <link rel="prev" href="../calendar/">
+        <link rel="prev" href="../pomodoro/">
       
       
         <link rel="next" href="../settings/">
@@ -27,7 +27,7 @@
     
     
       
-        <title>Notifications - Stutastic Planner Docs</title>
+        <title>Reminders - Stutastic Planner Docs</title>
       
     
     
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Notifications
+              Reminders
             
           </span>
         </div>
@@ -237,7 +237,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../getting-started/guest-vs-account/" class="md-tabs__link">
+        <a href="../../getting-started/onboarding/" class="md-tabs__link">
           
   
   
@@ -464,14 +464,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/guest-vs-account/" class="md-nav__link">
+      <a href="../../getting-started/onboarding/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Guest mode vs. an account
+    First-run setup
   
 
     
@@ -492,14 +492,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/onboarding/" class="md-nav__link">
+      <a href="../../getting-started/navigation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    First-run setup
+    Getting around
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/guest-vs-account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guest mode vs. an account
   
 
     
@@ -673,7 +701,35 @@
   <span class="md-ellipsis">
     
   
-    Schedule
+    Planner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../calendar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agenda, events and holidays
   
 
     
@@ -729,7 +785,7 @@
   <span class="md-ellipsis">
     
   
-    Homework & Tasks
+    Tasks
   
 
     
@@ -757,35 +813,7 @@
   <span class="md-ellipsis">
     
   
-    Study Topics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../pomodoro/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Pomodoro Focus Sessions
+    Study topics
   
 
     
@@ -813,7 +841,7 @@
   <span class="md-ellipsis">
     
   
-    Quiz & Tests
+    Quizzes and exams
   
 
     
@@ -841,7 +869,7 @@
   <span class="md-ellipsis">
     
   
-    Subjects & Academics
+    Subjects and academics
   
 
     
@@ -890,14 +918,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../calendar/" class="md-nav__link">
+      <a href="../pomodoro/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Calendar
+    Focus sessions
   
 
     
@@ -934,7 +962,7 @@
   <span class="md-ellipsis">
     
   
-    Notifications
+    Reminders
   
 
     
@@ -952,7 +980,7 @@
   <span class="md-ellipsis">
     
   
-    Notifications
+    Reminders
   
 
     
@@ -989,10 +1017,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#choose-what-to-be-reminded-about" class="md-nav__link">
+  <a href="#what-youre-reminded-about" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Choose what to be reminded about
+        What you're reminded about
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#by-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        By platform
       
     </span>
   </a>
@@ -1303,10 +1342,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#choose-what-to-be-reminded-about" class="md-nav__link">
+  <a href="#what-youre-reminded-about" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Choose what to be reminded about
+        What you're reminded about
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#by-platform" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        By platform
       
     </span>
   </a>
@@ -1331,24 +1381,60 @@
 
 
 <h1 id="reminders">Reminders<a class="headerlink" href="#reminders" title="Permanent link">&para;</a></h1>
-<p>Stutastic Planner can schedule class and deadline reminders on supported native platforms. Reminders
-are scheduled locally on your device, so they can fire while you are offline. They are off until you
-enable them and allow notifications in your device settings.</p>
-<p>Reminders are not available in the web app. They do not require a signed-in account.</p>
+<p>Stutastic Planner can remind you before each class and about what's due. Reminders are scheduled on
+your device, so they arrive even when you're offline, and they don't need an account. They're off
+until you turn them on.</p>
+<p><img alt="Settings → Reminders: Remind me, Before a class starts, What is due today, What is due tomorrow" src="../../img/phone-settings-reminders.png" width="260" /></p>
 <h2 id="turn-reminders-on">Turn reminders on<a class="headerlink" href="#turn-reminders-on" title="Permanent link">&para;</a></h2>
-<p>Open <strong>Settings → Reminders</strong>, turn on <strong>Remind me</strong>, and allow the operating system to show
-notifications. If permission is denied, enable notifications for Stutastic Planner in your device's
-system settings.</p>
-<p>The app schedules reminders up to two weeks ahead. Open the app at least once every two weeks so it
-can refresh that schedule.</p>
-<h2 id="choose-what-to-be-reminded-about">Choose what to be reminded about<a class="headerlink" href="#choose-what-to-be-reminded-about" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Open <strong>Settings → Reminders</strong> and turn on <strong>Remind me</strong>. You can also turn them on during
+   <a href="../../getting-started/onboarding/">setup</a>, at <strong>Never miss a class</strong>.</li>
+<li>Allow notifications when your device asks.</li>
+</ol>
+<p>If you said no to notifications earlier, turn them on for Stutastic Planner in your device's
+settings, then come back.</p>
+<h2 id="what-youre-reminded-about">What you're reminded about<a class="headerlink" href="#what-youre-reminded-about" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Reminder</th>
+<th>When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Before a class starts</strong></td>
+<td>5, 10, 15, 30 or 60 minutes before each class (10 by default)</td>
+</tr>
+<tr>
+<td><strong>What is due today</strong></td>
+<td>An hour before your first class of the day</td>
+</tr>
+<tr>
+<td><strong>What is due tomorrow</strong></td>
+<td>After your last class of the day</td>
+</tr>
+</tbody>
+</table>
+<p>Cancelled classes, moved classes and holidays are taken into account. With
+<a href="../attendance/#alerts">attendance alerts</a> set to <strong>Before class</strong>, a class reminder also tells you
+when missing that class would take you past a line.</p>
+<div class="admonition warning">
+<p class="admonition-title">Open the app every two weeks</p>
+<p>Reminders are scheduled two weeks ahead. Open the app at least that often so it can schedule the
+next two weeks.</p>
+</div>
+<p>Turning <strong>Remind me</strong> off cancels every reminder already scheduled on the device.</p>
+<h2 id="by-platform">By platform<a class="headerlink" href="#by-platform" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Before a class starts</strong> — choose 5, 10, 15, 30, or 60 minutes.</li>
-<li><strong>What is due today</strong> — a reminder an hour before your first class that day.</li>
-<li><strong>What is due tomorrow</strong> — a reminder after your last class of the day.</li>
+<li><strong>iPhone, iPad, Android, Mac and Windows:</strong> reminders arrive whether or not the app is open.</li>
+<li><strong>Linux:</strong> reminders arrive only while Planner is running. <strong>Start at login</strong> and
+  <strong>Keep running in the tray</strong>, on this page, keep it running in the background; closing the window
+  then leaves it in the tray.</li>
+<li><strong>Web:</strong> reminders aren't available. Use one of the apps, or connect
+  <a href="../settings/#google-calendar">Google Calendar</a> and let it remind you.</li>
 </ul>
-<p>You can change these options or turn reminders off in <strong>Settings → Reminders</strong>. Turning reminders off
-cancels the reminders already scheduled on that device.</p>
+<p>Reminders are set per device: turn them on on each device you want them on.</p>
 
 
 
@@ -1384,7 +1470,7 @@ cancels the reminders already scheduled on that device.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../calendar/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Calendar">
+          <a href="../pomodoro/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Focus sessions">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1394,7 +1480,7 @@ cancels the reminders already scheduled on that device.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Calendar
+                Focus sessions
               </div>
             </div>
           </a>

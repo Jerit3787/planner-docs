@@ -237,7 +237,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../getting-started/guest-vs-account/" class="md-tabs__link">
+        <a href="../../getting-started/onboarding/" class="md-tabs__link">
           
   
   
@@ -464,14 +464,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/guest-vs-account/" class="md-nav__link">
+      <a href="../../getting-started/onboarding/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Guest mode vs. an account
+    First-run setup
   
 
     
@@ -492,14 +492,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/onboarding/" class="md-nav__link">
+      <a href="../../getting-started/navigation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    First-run setup
+    Getting around
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/guest-vs-account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guest mode vs. an account
   
 
     
@@ -668,7 +696,35 @@
   <span class="md-ellipsis">
     
   
-    Schedule
+    Planner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../features/calendar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agenda, events and holidays
   
 
     
@@ -724,7 +780,7 @@
   <span class="md-ellipsis">
     
   
-    Homework & Tasks
+    Tasks
   
 
     
@@ -752,35 +808,7 @@
   <span class="md-ellipsis">
     
   
-    Study Topics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../features/pomodoro/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Pomodoro Focus Sessions
+    Study topics
   
 
     
@@ -808,7 +836,7 @@
   <span class="md-ellipsis">
     
   
-    Quiz & Tests
+    Quizzes and exams
   
 
     
@@ -836,7 +864,7 @@
   <span class="md-ellipsis">
     
   
-    Subjects & Academics
+    Subjects and academics
   
 
     
@@ -885,14 +913,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../features/calendar/" class="md-nav__link">
+      <a href="../../features/pomodoro/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Calendar
+    Focus sessions
   
 
     
@@ -920,7 +948,7 @@
   <span class="md-ellipsis">
     
   
-    Notifications
+    Reminders
   
 
     
@@ -1140,10 +1168,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#move-guest-data-to-another-device" class="md-nav__link">
+  <a href="#restore-on-a-new-device" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Move guest data to another device
+        Restore on a new device
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#move-to-another-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move to another device
       
     </span>
   </a>
@@ -1336,10 +1375,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#move-guest-data-to-another-device" class="md-nav__link">
+  <a href="#restore-on-a-new-device" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Move guest data to another device
+        Restore on a new device
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#move-to-another-device" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Move to another device
       
     </span>
   </a>
@@ -1374,29 +1424,52 @@
 
 
 
-<h1 id="export-and-import">Export and Import<a class="headerlink" href="#export-and-import" title="Permanent link">&para;</a></h1>
-<p>Open <strong>Settings → Your data</strong> to export a backup or restore one.</p>
+<h1 id="export-and-import">Export and import<a class="headerlink" href="#export-and-import" title="Permanent link">&para;</a></h1>
+<p>A backup is a single file with all your planner data: semesters, subjects, classes, tasks, tests,
+topics, attendance and focus history. Make one before you change devices, clear the app's data, or
+replace what you have. Guest data has no other copy.</p>
 <h2 id="export-everything">Export everything<a class="headerlink" href="#export-everything" title="Permanent link">&para;</a></h2>
-<p>Choose <strong>Export everything</strong> to save a dated JSON backup containing the planner records for the
-current session. This works offline and in guest mode. Account credentials and passwords are not part
-of the backup. Keep the file somewhere safe: it contains your personal study information.</p>
-<p>Export a backup before clearing app or browser data, changing devices, or using Replace during a
-restore. Guest data has no cloud copy until you create an account.</p>
+<ol>
+<li>Open <strong>Settings → Your data</strong>.</li>
+<li>Choose <strong>Export everything</strong> and save the file somewhere safe.</li>
+</ol>
+<p>The backup is a dated JSON file. It works offline and in guest mode. It never contains your
+password or any kept university login, but it does contain your study records, so keep it private.</p>
 <h2 id="restore-from-a-backup">Restore from a backup<a class="headerlink" href="#restore-from-a-backup" title="Permanent link">&para;</a></h2>
-<p>Choose <strong>Restore from a backup</strong>, select a backup file from Stutastic Planner or the earlier web app,
-then choose how to apply it:</p>
-<ul>
-<li><strong>Merge</strong> keeps existing records and adds or updates records from the backup.</li>
-<li><strong>Replace</strong> deletes the current planner data first, then restores the file. The app
-  asks you to confirm because this cannot be undone.</li>
+<ol>
+<li>Open <strong>Settings → Your data</strong> and choose <strong>Restore from a backup</strong>.</li>
+<li>Pick the file. Backups from this app and from the old web app both work.</li>
+<li>Choose how to apply it:<ul>
+<li><strong>Merge</strong> keeps what you have and adds or updates what's in the file.</li>
+<li><strong>Replace</strong> deletes your current planner data first, then restores the file. It asks you to
+  confirm, because it can't be undone.</li>
 </ul>
-<p>Restoring a backup does not restore account credentials. Sign in separately if you want to sync.</p>
-<h2 id="move-guest-data-to-another-device">Move guest data to another device<a class="headerlink" href="#move-guest-data-to-another-device" title="Permanent link">&para;</a></h2>
-<p>Export a backup on the original device, move the file securely, then restore it on the new device.
-Alternatively, create an account from <strong>Settings → Account</strong> to sync your existing planner data.</p>
+</li>
+</ol>
+<p>Restoring brings back your planner data, not your sign-in. Sign in separately if you want it synced.</p>
+<h2 id="restore-on-a-new-device">Restore on a new device<a class="headerlink" href="#restore-on-a-new-device" title="Permanent link">&para;</a></h2>
+<p>On a fresh install you can restore before setting anything up:</p>
+<ol>
+<li>On the welcome screen, choose <strong>Restore a backup</strong>.</li>
+<li>Choose <strong>Choose a backup file</strong> and pick it. On iPhone and iPad, it can be in Files, iCloud Drive
+   or <strong>On My iPhone</strong>.</li>
+<li>The app says how many records will be added; choose <strong>Restore</strong>.</li>
+</ol>
+<p>Setup is then skipped and you land on your Dashboard as a guest, with everything from the backup.
+Create an account afterwards from <strong>Settings → Account</strong> if you want it synced.</p>
+<p><img alt="Restore a backup: Bring your planner with you, with Choose a backup file" src="../../img/phone-restore-backup.png" width="260" /></p>
+<p><strong>Set up without a backup</strong> goes back to the normal <a href="../../getting-started/onboarding/">setup</a>.</p>
+<h2 id="move-to-another-device">Move to another device<a class="headerlink" href="#move-to-another-device" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>With an account:</strong> sign in on the new device. Everything comes down from your account.</li>
+<li><strong>As a guest:</strong> export a backup, move the file to the new device (by AirDrop, email to yourself or
+  a cloud drive), and restore it there. Or create an account on the old device first, then sign in
+  on the new one.</li>
+</ul>
 <h2 id="import-a-timetable">Import a timetable<a class="headerlink" href="#import-a-timetable" title="Permanent link">&para;</a></h2>
-<p>To import class rows from a CSV timetable, open <strong>Planner</strong> and choose <strong>Import timetable</strong> from its
-menu. This is separate from restoring a full planner backup.</p>
+<p>To add classes rather than a whole planner, use the Planner's menu:
+<a href="../../features/university-import/">Import from your university</a> or
+<a href="../../features/schedule/#paste-a-timetable">Paste a timetable</a>.</p>
 
 
 

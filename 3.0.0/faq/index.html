@@ -237,7 +237,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../getting-started/guest-vs-account/" class="md-tabs__link">
+        <a href="../getting-started/onboarding/" class="md-tabs__link">
           
   
   
@@ -464,14 +464,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/guest-vs-account/" class="md-nav__link">
+      <a href="../getting-started/onboarding/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Guest mode vs. an account
+    First-run setup
   
 
     
@@ -492,14 +492,42 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/onboarding/" class="md-nav__link">
+      <a href="../getting-started/navigation/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    First-run setup
+    Getting around
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/guest-vs-account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guest mode vs. an account
   
 
     
@@ -668,7 +696,35 @@
   <span class="md-ellipsis">
     
   
-    Schedule
+    Planner
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../features/calendar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agenda, events and holidays
   
 
     
@@ -724,7 +780,7 @@
   <span class="md-ellipsis">
     
   
-    Homework & Tasks
+    Tasks
   
 
     
@@ -752,35 +808,7 @@
   <span class="md-ellipsis">
     
   
-    Study Topics
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../features/pomodoro/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Pomodoro Focus Sessions
+    Study topics
   
 
     
@@ -808,7 +836,7 @@
   <span class="md-ellipsis">
     
   
-    Quiz & Tests
+    Quizzes and exams
   
 
     
@@ -836,7 +864,7 @@
   <span class="md-ellipsis">
     
   
-    Subjects & Academics
+    Subjects and academics
   
 
     
@@ -885,14 +913,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../features/calendar/" class="md-nav__link">
+      <a href="../features/pomodoro/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Calendar
+    Focus sessions
   
 
     
@@ -920,7 +948,7 @@
   <span class="md-ellipsis">
     
   
-    Notifications
+    Reminders
   
 
     
@@ -1247,9 +1275,13 @@ not sync. See <a href="../getting-started/guest-vs-account/">Guest mode vs. an a
 Create an account from <strong>Settings → Account</strong> to sync your current planner data, or export a backup and
 restore it on the other device. See <a href="../data/export-import/">Export and Import</a>.</p>
 <p><strong>Why are reminders unavailable in the web app?</strong>
-The web app does not schedule reminders. Use a supported native app, enable <strong>Settings → Reminders</strong>,
-and allow notifications in your device settings. Reminders are stored on that device and do not need
+The web app does not schedule reminders. Use one of the apps, turn on <strong>Settings → Reminders</strong>, and
+allow notifications in your device settings. Reminders are stored on that device and do not need
 an account. See <a href="../features/notifications/">Reminders</a>.</p>
+<p><strong>My reminders stopped.</strong>
+Reminders are scheduled two weeks ahead; open the app to schedule the next two weeks. Check that
+notifications are still allowed for Stutastic Planner in your device's settings. On Linux, Planner
+must be running.</p>
 <p><strong>How do I connect Google Calendar?</strong>
 Sign in to Stutastic Planner, then open <strong>Settings → Google Calendar</strong> and choose <strong>Connect Google
 Calendar</strong>. The app manages a dedicated calendar for its own planner items. See
@@ -1259,8 +1291,27 @@ Open <strong>Settings → Google Calendar</strong> and choose <strong>Disconnect
 without disconnecting first; account deletion attempts to remove the Calendar connection
 automatically. If that cleanup cannot be confirmed, deletion stops so you can retry.</p>
 <p><strong>Can I import a timetable?</strong>
-Yes. Choose <strong>Import timetable</strong> from the Planner menu to load a CSV timetable. You can also paste
-timetable text during first-run setup.</p>
+Yes, two ways, both from the <strong>⋯</strong> menu on the Planner. <strong>Import from your university</strong> signs in to a
+supported student portal and brings in your subjects and classes. <strong>Paste a timetable</strong> takes one
+class per line. See <a href="../features/schedule/#bring-in-a-timetable">Bring in a timetable</a>.</p>
+<p><strong>A class is cancelled this week. Do I delete it?</strong>
+No. Open the class and choose <strong>Cancel a date</strong>: only that date goes, and the rest of the term stays.
+<strong>Reschedule a date</strong> moves one date instead. For a public holiday that cancels every class, add a
+<a href="../features/calendar/#holidays">holiday</a>.</p>
+<p><strong>My class alternates weeks. How do I add it?</strong>
+Set the semester's Week A anchor date, then set the class to repeat <strong>Every 2 weeks</strong> in Week A or
+Week B. See <a href="../features/schedule/#alternating-weeks">Alternating weeks</a>.</p>
+<p><strong>Why does my GPA have a "~" in front?</strong>
+Some subjects in it don't have a final grade yet, so it's an estimate. See
+<a href="../features/academics/#grading-scales-and-gpa">Grading scales and GPA</a>.</p>
+<p><strong>How many more classes can I miss?</strong>
+Open the subject's <strong>Attendance</strong> tab, or check the Dashboard's <strong>Attendance warnings</strong> card. See
+<a href="../features/attendance/">Attendance</a>.</p>
+<p><strong>Can I see the focus timer on my Lock Screen?</strong>
+On iPhone, yes: a running session shows on the Lock Screen and in the Dynamic Island. On Android it
+shows as a notification. See <a href="../features/pomodoro/#while-it-runs">Focus sessions</a>.</p>
+<p><strong>Are there keyboard shortcuts?</strong>
+Yes, on any device with a keyboard. See <a href="../getting-started/navigation/#keyboard-shortcuts">Getting around</a>.</p>
 <p><strong>Can I create a backup?</strong>
 Yes. In <strong>Settings → Your data</strong>, choose <strong>Export everything</strong> to save a JSON backup. See
 <a href="../data/export-import/">Export and Import</a>.</p>
